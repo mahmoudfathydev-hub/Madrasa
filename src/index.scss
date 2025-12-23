@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&display=swap');
+
+
+:root {
+    --color-primary: #7C3AED;
+    --color-primary-light: #A78BFA;
+    --color-primary-dark: #5B21B6;
+    --color-secondary: #4F46E5;
+    --color-secondary-light: #818CF8;
+    --color-secondary-dark: #4338CA;
+    --color-accent: #EC4899;
+    --color-accent-light: #F9A8D4;
+    --color-accent-dark: #BE185D;
+    --color-white: #FFFFFF;
+    --color-black: #111827;
+    --color-gray-light: #E5E7EB;
+    --color-gray: #9CA3AF;
+    --color-gray-dark: #4B5563;
+    --color-success: #22C55E;
+    --color-error: #EF4444;
+    --color-warning: #F59E0B;
+    --color-info: var(--color-secondary-light);
+    --color-bg-primary: #F5F3FF;
+    --color-bg-secondary: #FFFFFF;
+    --color-bg-accent: #FCE7F3;
+    --color-text-primary: #1E1B4B;
+    --color-text-secondary: #6B7280;
+    --color-text-inverse: #FFFFFF;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Amiri', serif, "Oswald";
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--color-bg-primary);
+    overflow-x: hidden;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}

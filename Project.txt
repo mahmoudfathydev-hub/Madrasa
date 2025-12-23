@@ -1,0 +1,223 @@
+MADRASA APP FULL STRUCTURE
+=======================================================================
+
+====== SIGN-UP / LOG-IN PAGE {
+    ====== SIGN-UP FORM {
+        Input Fields: Name, Email, Password
+        Sign-up Button
+        Link to Log-in
+        Form validation (front-end)
+        Optional: Social Login Buttons
+    }
+    ====== LOG-IN FORM {
+        Input Fields: Email, Password
+        Log-in Button
+        Link to Sign-up
+        Forgot Password Link
+        Form validation
+    }
+}
+
+=======================================================================
+
+====== HOME PAGE {
+    ====== NAVBAR SECTION {
+        Logo
+        Search Input
+        Links (Courses, Categories, Profile, Pricing)
+        Responsive Burger Menu (<1028px)
+    }
+    ====== HERO SECTION {
+        Banner / Swiper (Featured Courses)
+        Call-to-Action Button
+    }
+    ====== WHY MADRASA APP? SECTION {
+        Cards with Benefits / Features
+    }
+    ====== COURSES PREVIEW SECTION {
+        Courses Card Grid / Carousel
+        View All Button
+    }
+    ====== TESTIMONIALS SECTION {
+        User Feedback / Reviews (Swiper)
+    }
+    ====== OUR ASPIRATIONS SECTION {
+        Goals / Mission Cards
+    }
+    ====== CATEGORIES FOR SCIENCES {
+        Category Cards / Icons (Math, Physics, Chemistry…)
+    }
+    ====== DOCTORS / TEACHERS SECTION {
+        Teacher Cards with Info / Social Links
+    }
+    ====== FOOTER SECTION {
+        Top Footer (Quick Links, Newsletter)
+        Bottom Footer (Copyright, Social Media)
+    }
+}
+
+=======================================================================
+
+====== COURSES PAGE {
+    ====== NAVBAR SECTION {
+        Logo
+        Links
+        Search Input
+        Responsive Menu
+    }
+    ====== CATEGORY FILTER SECTION {
+        Filter by Category / Level / Price
+    }
+    ====== COURSES CARD SECTION {
+        Grid / List View Toggle
+        Each Card: Image, Title, Short Description, Progress Bar
+        Sorting: A-Z, Popularity
+        Pagination or Infinite Scroll
+    }
+    ====== FOOTER SECTION
+}
+
+=======================================================================
+
+====== COURSE DETAIL PAGE {
+    ====== NAVBAR SECTION
+    ====== LESSON CARD SECTION {
+        Each Lesson: Title, Video / PDF, Mark as Completed
+        Collapsible Accordion for lessons
+        Progress Bar for lesson completion
+    }
+    ====== QUIZ SECTION {
+        Multiple Choice Questions
+        Show Result / Score
+        Store progress in LocalStorage
+    }
+    ====== FOOTER SECTION
+}
+
+=======================================================================
+
+====== PRICING PAGE {
+    ====== NAVBAR SECTION
+    ====== PLAN CARDS SECTION {
+        Card per plan: Title, Price, Features
+        Upgrade Plan Button -> Redirect to CHECKOUT PAGE
+        Hover / Selected Animation
+    }
+    ====== FOOTER SECTION
+}
+
+=======================================================================
+
+====== ACHIEVEMENTS / PROGRESS PAGE {
+    ====== NAVBAR SECTION
+    ====== YOUR PROGRESS SECTION {
+        Courses Completed
+        Lessons Completed
+        Badges Earned
+        Progress Bars / Circular Charts
+        Animations on load
+        Tooltips for Badges
+    }
+    ====== FOOTER SECTION
+}
+
+=======================================================================
+
+====== PROFILE PAGE & SETTINGS {
+    ====== NAVBAR SECTION
+    ====== YOUR INFORMATION SECTION {
+        Name, Email, Password Change
+        Profile Picture Upload
+        Dark / Light Mode Toggle
+        Front-end validation on edit
+    }
+    ====== FOOTER SECTION
+}
+
+=======================================================================
+
+====== CHECKOUT PAGE {
+    ====== NAVBAR SECTION
+    ====== ORDER SUMMARY SECTION {
+        Display selected plan or course
+        Payment Options (Simulated)
+        Confirm Button
+        Stepper UI (Shipping > Payment > Confirm)
+    }
+    ====== FOOTER SECTION
+}
+
+=======================================================================
+
+====== FAQ PAGE {
+    Accordion with questions & answers
+    Smooth animations on toggle
+}
+
+=======================================================================
+
+====== BLOG / ARTICLES PAGE {
+    List / Grid of articles
+    Each article: Title, Snippet, Read More Button
+}
+
+=======================================================================
+
+====== CONTACT PAGE {
+    Contact Form: Name, Email, Message
+    Form validation (Front-end)
+}
+
+=======================================================================
+
+====== SEARCH RESULTS PAGE {
+    Display courses / lessons matching search query
+    Pagination or Infinite Scroll
+}
+
+=======================================================================
+
+====== COMPONENTS STRUCTURE {
+    Navbar.jsx
+    Footer.jsx
+    HeroBanner.jsx
+    CoursesCard.jsx
+    LessonCard.jsx
+    Quiz.jsx
+    ProgressBar.jsx
+    TeacherCard.jsx
+    TestimonialCard.jsx
+    CategoryCard.jsx
+    PricingCard.jsx
+    Accordion.jsx
+}
+
+=======================================================================
+
+====== UTILS / DATA STRUCTURE {
+    coursesData.js
+    teachersData.js
+    localStorageHelpers.js
+    quizData.js
+}
+
+=======================================================================
+
+====== STYLES {
+    variables.scss
+    mixins.scss
+    global.scss
+}
+
+=======================================================================
+
+====== FRONT-END FEATURES {
+    Animations عند Scroll و Hover
+    LocalStorage لتخزين تقدم المستخدم و Quiz results
+    Responsive Design (Mobile / Tablet / Desktop)
+    Dark / Light Mode Toggle
+    Grid / List toggle للـCourses
+    Carousel / Swiper للأقسام المهمة (Hero, Testimonials, Related Courses)
+}
+
+=======================================================================

@@ -1,0 +1,76 @@
+{
+    "login": {
+        "title": "El-Madrasa",
+        "subtitle": "Welcome back! Please login to your account.",
+        "email": "Email Address",
+        "password": "Password",
+        "rememberMe": "Remember me",
+        "forgotPassword": "Forgot password?",
+        "signin": "Sign In",
+        "question": "Don't have an account?",
+        "signup": "Signup"
+    },
+    "signup": {
+        "title": "Create Account",
+        "subtitle": "Please fill out this form to create an account.",
+        "fname": "First Name",
+        "lname": "Last Name",
+        "email": "Email Address",
+        "password": "Password",
+        "strong": "Strong",
+        "medium": "Medium",
+        "weak": "Weak",
+        "confirmPassword": "Confirm Password",
+        "signupButton": "Sign Up",
+        "question": "Already have an account?",
+        "signin": "Sign In",
+        "login": "Login"
+    },
+    "nav": {
+        "logo": "El Madrasa",
+        "link1": "Home",
+        "link2": "About Us",
+        "link3": "Courses",
+        "link4": "pricing",
+        "link5": "contact"
+    },
+    "hero": {
+        "title": "El Madrasa",
+        "description1": "Learn programming, languages, video editing, and content creation in a fun and practical way suitable for all levels.",
+        "description2": "Join our community and unlock your digital skills with interactive courses and modern, high-quality content.",
+        "button1": "Get Started",
+        "button2": "Learn More"
+    },
+    "whyMadrasa": [
+        {
+            "title": "Learn Programming",
+            "description": "Master coding skills with interactive courses.",
+            "image": "img2"
+        },
+        {
+            "title": "Languages",
+            "description": "Learn English, Arabic, and more.",
+            "image": "img3"
+        },
+        {
+            "title": "Video Editing",
+            "description": "Create professional videos easily.",
+            "image": "img4"
+        },
+        {
+            "title": "Content Creation",
+            "description": "Make content that inspires others.",
+            "image": "img5"
+        },
+        {
+            "title": "Community Support",
+            "description": "Join a supportive learning community.",
+            "image": "img6"
+        },
+        {
+            "title": "Career Growth",
+            "description": "Boost your career with digital skills.",
+            "image": "img7"
+        }
+    ]
+}
