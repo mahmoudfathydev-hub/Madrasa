@@ -1,0 +1,125 @@
+:root {
+    --color-primary: #7C3AED;
+    --color-primary-light: #A78BFA;
+    --color-primary-dark: #5B21B6;
+    --color-secondary: #4F46E5;
+    --color-secondary-light: #818CF8;
+    --color-secondary-dark: #4338CA;
+    --color-accent: #EC4899;
+    --color-accent-light: #F9A8D4;
+    --color-accent-dark: #BE185D;
+    --color-white: #FFFFFF;
+    --color-black: #111827;
+    --color-gray-light: #E5E7EB;
+    --color-gray: #9CA3AF;
+    --color-gray-dark: #4B5563;
+    --color-success: #22C55E;
+    --color-error: #EF4444;
+    --color-warning: #F59E0B;
+    --color-info: var(--color-secondary-light);
+    --color-bg-primary: #F5F3FF;
+    --color-bg-secondary: #FFFFFF;
+    --color-bg-accent: #FCE7F3;
+    --color-text-primary: #1E1B4B;
+    --color-text-secondary: #6B7280;
+    --color-text-inverse: #FFFFFF;
+}
+
+
+.about-mission-vision {
+    background: linear-gradient(to bottom,
+            #334155 0%,
+            #020617 60%,
+            #000000 100%);
+    padding: 2rem 0;
+    color: white;
+    overflow: hidden;
+
+    .heading {
+        text-align: center;
+        margin-bottom: 1rem;
+
+        h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            transition: all 0.3s linear;
+
+            &:hover {
+                cursor: pointer;
+                color: var(--color-primary);
+            }
+        }
+    }
+
+    .ticker-wrapper {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        direction: ltr;
+    }
+
+    .ticker {
+        display: flex;
+        gap: 20px;
+        width: max-content;
+        animation: scroll-ltr 120s linear infinite;
+
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
+
+    /* RTL */
+    html[dir="rtl"] & {
+        .ticker {
+            animation: scroll-rtl 120s linear infinite;
+        }
+    }
+
+    .ticker-item {
+        min-width: 250px;
+        flex-shrink: 0;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+        transition: all 0.3s ease;
+
+        h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            color: #ccc;
+        }
+
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+        }
+    }
+}
+
+/* Animations */
+@keyframes scroll-ltr {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scroll-rtl {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}

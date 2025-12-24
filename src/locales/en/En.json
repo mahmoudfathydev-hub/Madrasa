@@ -454,5 +454,27 @@
         "pages" : "Our Pages",
         "copyright" : "© 2025 El Madrasa. All rights reserved.",
         "creator" : "Created By Eng:-Mahmoud Fathy"
+    },
+    "AboutHero" : {
+        "title" : "Welcome to",
+        "text" : "Madrasa",
+        "sidetext1" : "Your New Ultimate Gateway To Success",
+        "sidetext2" : "El Madrasa is an educational platform designed to empower individuals with essential digital skills through interactive courses and modern content",
+        "mobiletext1" : "Your GateWay To Success",
+        "mobiletext2" : "Unique Trip You Will Get It",
+        "mobiletext3" : "Students",
+        "number1" : "+2500",
+        "mobiletext4" : "Professors",
+        "number2" : "+200",
+        "mobiletext5" : "Courses",
+        "number3" : "+120",
+        "mobiletext6" : "SERVICES",
+        "mobiletext7" : "Full Stack Course",
+        "mobiletext8" : "Video Editing Course",
+        "sidetext3" : "Get Started Today",
+        "sidetext4" : "El MADRASA Is The Correct Choice"
+    }, 
+    "AboutMissionVision" : {
+        "title" : "Our Mission And Vision"
     }
 }
