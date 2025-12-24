@@ -44,11 +44,8 @@ MADRASA APP FULL STRUCTURE
     ====== OUR ASPIRATIONS SECTION {
         Goals / Mission Cards
     }
-    ====== CATEGORIES FOR SCIENCES {
-        Category Cards / Icons (Math, Physics, Chemistry…)
-    }
     ====== DOCTORS / TEACHERS SECTION {
-        Teacher Cards with Info / Social Links
+        Teacher Cards with Info 
     }
     ====== FOOTER SECTION {
         Top Footer (Quick Links, Newsletter)

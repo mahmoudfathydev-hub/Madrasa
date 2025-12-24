@@ -19,24 +19,20 @@ export default function WhyMadrasa() {
         document.documentElement.dir = newLang === 'en' ? 'ltr' : 'rtl';
     };
 
-    const cards = t('whyMadrasa', { returnObjects: true });
+    const cards = t('coursesPreview', { returnObjects: true }) || [];
     const images = { img2, img3, img4, img5, img6, img7 };
-    const backColors = [
-        '#7C3AED',
-        '#4F46E5',
-        '#EC4899',
-        '#F59E0B',
-        '#22C55E',
-        '#3B82F6'
-    ];
+    const backColors = ['#7C3AED', '#4F46E5', '#EC4899', '#F59E0B', '#22C55E', '#3B82F6'];
 
     return (
         <div className="why-madrasa-container">
             <div className="overlay-blur"></div>
-
-            <div className="floating-shape"></div>
+            <div className="floating-shape1"></div>
+            <div className="floating-shape2"></div>
 
             <div className="container">
+                <div className="title">
+                    <h3>{t('whyMadrasa.0.name')}</h3>
+                </div>
                 <div className="cards-grid">
                     {cards.map((card, index) => {
                         const backColor = backColors[index % backColors.length];
@@ -44,18 +40,14 @@ export default function WhyMadrasa() {
                             <div
                                 className="flip-card"
                                 key={index}
-                                style={{ border: `3px solid ${backColor}` }}
+                                style={{ borderRadius: '1.2rem', border: `3px solid ${backColor}` }}
                             >
                                 <div className="flip-card-inner">
                                     <div className="flip-card-front">
                                         <img src={images[card.image]} alt={card.title} />
                                         <h3>{card.title}</h3>
                                     </div>
-
-                                    <div
-                                        className="flip-card-back"
-                                        style={{ backgroundColor: backColor }}
-                                    >
+                                    <div className="flip-card-back" style={{ backgroundColor: backColor }}>
                                         <p>{card.description}</p>
                                     </div>
                                 </div>

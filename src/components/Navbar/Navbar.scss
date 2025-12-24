@@ -26,24 +26,29 @@
 }
 
 .navbar {
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 100;
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    z-index: 10000;
 
+    width: calc(100% - 2rem);
+    max-width: 1200px;
+
+    margin: 0 auto;
 
     background: rgba(255, 255, 255, 0.65);
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
+
     border: 1px solid rgba(255, 255, 255, 0.3);
-    max-width: 1200px;
-    margin: auto;
     border-radius: 35px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 
     box-shadow: 0 20px 40px rgba(124, 58, 237, 0.08);
 
-    animation: glassFade 0.6s ease forwards;
 
     .container {
         max-width: 1200px;
@@ -241,13 +246,14 @@ html[dir='rtl'] {
             text-align: center;
         }
 
-        a{
-            color: var(--color-bg-secondary)!important;
-            font-size: 1.4rem;  
-            font-weight: 600!important;
+        a {
+            color: var(--color-bg-secondary) !important;
+            font-size: 1.4rem;
+            font-weight: 600 !important;
             transition: color 0.3s ease;
-            &:hover{
-                color: var(--color-primary)!important;
+
+            &:hover {
+                color: var(--color-primary) !important;
             }
         }
 

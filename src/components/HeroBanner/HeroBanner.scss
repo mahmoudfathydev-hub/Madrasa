@@ -30,8 +30,8 @@
     width: 100%;
     min-height: 80vh;
     padding: 2rem 0;
-    overflow: hidden; // Ensures circles stay within section
-
+    overflow: hidden; 
+    margin-top: 7rem;
     .container {
         display: grid;
         grid-template-columns: 1.5fr 1fr;
@@ -173,7 +173,7 @@
     }
 }
 
-/* ===== الدوائر ===== */
+
 .circle-bg {
     position: absolute;
     border-radius: 50%;
@@ -198,7 +198,7 @@
     height: 400px;
     top: -100px;
     left: -80px;
-    animation-duration: 40s;
+    animation-duration: 30s;
 
     @media (max-width: 800px) {
         width: 250px;
@@ -220,7 +220,7 @@
     height: 300px;
     top: 100px;
     right: -80px;
-    animation-duration: 50s;
+    animation-duration: 25s;
 
     @media (max-width: 800px) {
         width: 200px;
@@ -242,7 +242,7 @@
     height: 200px;
     bottom: 50px;
     left: 150px;
-    animation-duration: 35s;
+    animation-duration: 20s;
 
     @media (max-width: 800px) {
         width: 120px;
@@ -259,7 +259,7 @@
     }
 }
 
-/* ===== keyframes ===== */
+
 @keyframes floatCircle {
     0% {
         transform: translate(0, 0);
