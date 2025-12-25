@@ -447,34 +447,159 @@
         "link8": "Courses",
         "link9": "Testimonials",
         "link10": "Aspirations",
-        "link11" : "professors",
-        "title" : "EL - MADRASA",
-        "description" : "El Madrasa is an educational platform designed to empower individuals with essential digital skills through interactive courses and modern content. Our mission is to provide accessible, high-quality training that prepares learners for success in today's rapidly evolving technological landscape.",
-        "sections" : "Our Sections",
-        "pages" : "Our Pages",
-        "copyright" : "© 2025 El Madrasa. All rights reserved.",
-        "creator" : "Created By Eng:-Mahmoud Fathy"
+        "link11": "professors",
+        "title": "EL - MADRASA",
+        "description": "El Madrasa is an educational platform designed to empower individuals with essential digital skills through interactive courses and modern content. Our mission is to provide accessible, high-quality training that prepares learners for success in today's rapidly evolving technological landscape.",
+        "sections": "Our Sections",
+        "pages": "Our Pages",
+        "copyright": "© 2025 El Madrasa. All rights reserved.",
+        "creator": "Created By Eng:-Mahmoud Fathy"
     },
-    "AboutHero" : {
-        "title" : "Welcome to",
-        "text" : "Madrasa",
-        "sidetext1" : "Your New Ultimate Gateway To Success",
-        "sidetext2" : "El Madrasa is an educational platform designed to empower individuals with essential digital skills through interactive courses and modern content",
-        "mobiletext1" : "Your GateWay To Success",
-        "mobiletext2" : "Unique Trip You Will Get It",
-        "mobiletext3" : "Students",
-        "number1" : "+2500",
-        "mobiletext4" : "Professors",
-        "number2" : "+200",
-        "mobiletext5" : "Courses",
-        "number3" : "+120",
-        "mobiletext6" : "SERVICES",
-        "mobiletext7" : "Full Stack Course",
-        "mobiletext8" : "Video Editing Course",
-        "sidetext3" : "Get Started Today",
-        "sidetext4" : "El MADRASA Is The Correct Choice"
-    }, 
-    "AboutMissionVision" : {
-        "title" : "Our Mission And Vision"
+    "AboutHero": {
+        "title": "Welcome to",
+        "text": "Madrasa",
+        "sidetext1": "Your New Ultimate Gateway To Success",
+        "sidetext2": "El Madrasa is an educational platform designed to empower individuals with essential digital skills through interactive courses and modern content",
+        "mobiletext1": "Your GateWay To Success",
+        "mobiletext2": "Unique Trip You Will Get It",
+        "mobiletext3": "Students",
+        "number1": "+2500",
+        "mobiletext4": "Professors",
+        "number2": "+200",
+        "mobiletext5": "Courses",
+        "number3": "+120",
+        "mobiletext6": "SERVICES",
+        "mobiletext7": "Full Stack Course",
+        "mobiletext8": "Video Editing Course",
+        "sidetext3": "Get Started Today",
+        "sidetext4": "El MADRASA Is The Correct Choice"
+    },
+    "AboutMissionVision": {
+        "title": "Our Mission And Vision"
+    },
+    "AboutFeatures": {
+        "title": "Our Features",
+        "desc": "Everything you need to build strong digital skills and succeed in the modern tech world",
+        "cards": [
+            {
+                "id": 1,
+                "title": "Expert Instructors",
+                "description": "Learn from highly qualified professionals with real-world industry experience.",
+                "icon": "🎓"
+            },
+            {
+                "id": 2,
+                "title": "Practical Learning",
+                "description": "Hands-on projects and real applications to strengthen your skills.",
+                "icon": "🛠️"
+            },
+            {
+                "id": 3,
+                "title": "Flexible Learning",
+                "description": "Study anytime, anywhere with lifetime access to courses.",
+                "icon": "⏰"
+            },
+            {
+                "id": 4,
+                "title": "Career-Oriented Courses",
+                "description": "Courses designed to prepare you for real job opportunities.",
+                "icon": "💼"
+            },
+            {
+                "id": 5,
+                "title": "Modern Technologies",
+                "description": "Learn the latest tools and technologies used in today’s market.",
+                "icon": "🚀"
+            },
+            {
+                "id": 6,
+                "title": "Supportive Community",
+                "description": "Join a growing community of learners and mentors.",
+                "icon": "🌍"
+            },
+            {
+                "id": 7,
+                "title": "Certified Learning",
+                "description": "Earn certificates to showcase your skills and achievements.",
+                "icon": "📜"
+            },
+            {
+                "id": 8,
+                "title": "Affordable Pricing",
+                "description": "High-quality education at prices suitable for everyone.",
+                "icon": "💰"
+            }
+        ]
+    },
+    "ImportantNumbers": {
+        "next": "Next",
+        "items": [
+            {
+                "value": "+25,000",
+                "label": "Students Enrolled",
+                "desc": "Learners from different countries"
+            },
+            {
+                "value": "+120",
+                "label": "Courses Available",
+                "desc": "Digital courses across multiple fields"
+            },
+            {
+                "value": "+40",
+                "label": "Expert Instructors",
+                "desc": "Professional trainers with real experience"
+            },
+            {
+                "value": "+15",
+                "label": "Countries Reached",
+                "desc": "Global learning community"
+            },
+            {
+                "value": "98%",
+                "label": "Student Satisfaction",
+                "desc": "High-quality learning experience"
+            },
+            {
+                "value": "+300",
+                "label": "Hours of Content",
+                "desc": "Recorded educational hours"
+            },
+            {
+                "value": "+5,000",
+                "label": "Certificates Issued",
+                "desc": "Certificates after course completion"
+            },
+            {
+                "value": "24/7",
+                "label": "Learning Access",
+                "desc": "Learn anytime, anywhere"
+            },
+            {
+                "value": "+60",
+                "label": "Practical Projects",
+                "desc": "Real-world hands-on projects"
+            },
+            {
+                "value": "+10",
+                "label": "Tech Skills Tracks",
+                "desc": "Programming, AI, Design and more"
+            },
+            {
+                "value": "85%",
+                "label": "Career Improvement",
+                "desc": "Learners improved their career paths"
+            },
+            {
+                "value": "+1,200",
+                "label": "Community Members",
+                "desc": "Active learning community"
+            }
+        ]
+    },
+    "AboutCTA" : {
+        "title" : "El-Madrasa",
+        "subtitle" : "is an educational platform designed to empower individuals with essential digital skills through interactive courses and modern content",
+        "btn" : "GO TO COURSES",
+        "dev" : "This Website Made With Love By Eng Mahmoud Fathy"
     }
 }

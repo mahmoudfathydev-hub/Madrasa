@@ -7,14 +7,13 @@ import './Navbar.scss';
 export default function Navbar() {
     const { t, i18n } = useTranslation();
     const [currentLang, setCurrentLang] = useState(i18n.language);
-    const [menuOpen, setMenuOpen] = useState(false);
-
     const toggleLanguage = () => {
         const newLang = currentLang === 'en' ? 'ar' : 'en';
         i18n.changeLanguage(newLang);
         setCurrentLang(newLang);
         document.documentElement.dir = newLang === 'en' ? 'ltr' : 'rtl';
     };
+    const [menuOpen, setMenuOpen] = useState(false);
 
     const links = [
         { id: 1, name: t('nav.link1'), link: '/home' },

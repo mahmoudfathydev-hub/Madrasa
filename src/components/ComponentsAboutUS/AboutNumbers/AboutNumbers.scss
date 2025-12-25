@@ -1,0 +1,218 @@
+:root {
+  --color-primary: #7C3AED;
+  --color-primary-light: #A78BFA;
+  --color-primary-dark: #5B21B6;
+  --color-secondary: #4F46E5;
+  --color-secondary-light: #818CF8;
+  --color-secondary-dark: #4338CA;
+  --color-accent: #EC4899;
+  --color-accent-light: #F9A8D4;
+  --color-accent-dark: #BE185D;
+  --color-white: #FFFFFF;
+  --color-black: #111827;
+  --color-gray-light: #E5E7EB;
+  --color-gray: #9CA3AF;
+  --color-gray-dark: #4B5563;
+  --color-success: #22C55E;
+  --color-error: #EF4444;
+  --color-warning: #F59E0B;
+  --color-info: var(--color-secondary-light);
+}
+
+.Important-numbers {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:var(--color-gray-dark);
+  perspective: 1000px;
+}
+
+.card-stack {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  cursor: pointer;
+}
+
+.card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg,
+      var(--color-primary-light),
+      var(--color-primary),
+      var(--color-primary-dark));
+  color: var(--color-white);
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  transition: transform 0.3s, z-index 0.3s, scale 0.3s;
+}
+
+.card:nth-child(1) {
+  transform: rotate(-10deg) translateX(0);
+  z-index: 3;
+}
+
+.card:nth-child(2) {
+  transform: rotate(-5deg) translateX(10px);
+  z-index: 2;
+}
+
+.card:nth-child(3) {
+  transform: rotate(5deg) translateX(20px);
+  z-index: 1;
+}
+
+.card.active {
+  transform: rotate(0deg) translateX(0) scale(1.05);
+  z-index: 10;
+}
+
+.card-btn {
+  margin-top: 20px;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--color-accent);
+  color: var(--color-white);
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.card-btn:hover {
+  background: var(--color-accent-dark);
+  transform: scale(1.05);
+}
+
+.floating-shapes {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; // علشان ما تمنعش الكروت من التفاعل
+  z-index: 0;
+
+  .shape {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    width: 80px;
+    height: 80px;
+    animation: floatShape 20s linear infinite;
+
+    &.shape1 {
+      top: 10%;
+      left: 15%;
+      animation-duration: 22s;
+    }
+
+    &.shape2 {
+      top: 40%;
+      left: 70%;
+      animation-duration: 18s;
+    }
+
+    &.shape3 {
+      top: 70%;
+      left: 35%;
+      animation-duration: 25s;
+    }
+
+    &.shape4 {
+      top: 30%;
+      left: 50%;
+      animation-duration: 25s;
+    }
+
+    &.shape5 {
+      top: 65%;
+      left: 14%;
+      animation-duration: 25s;
+    }
+
+    &.shape6 {
+      top: 80%;
+      left: 22%;
+      animation-duration: 25s;
+    }
+
+    &.shape7 {
+      top: 5%;
+      left: 66%;
+      animation-duration: 25s;
+    }
+
+    &.shape8 {
+      top: 88%;
+      left: 44%;
+      animation-duration: 25s;
+    }
+  }
+
+  @keyframes floatShape {
+    0% {
+      transform: translate(0, 0) rotate(0deg);
+    }
+
+    25% {
+      transform: translate(30px, 20px) rotate(45deg);
+    }
+
+    50% {
+      transform: translate(-20px, 30px) rotate(90deg);
+    }
+
+    75% {
+      transform: translate(15px, -25px) rotate(135deg);
+    }
+
+    100% {
+      transform: translate(0, 0) rotate(360deg);
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .Important-numbers {
+    height: auto;
+    /* بدل 60vh */
+    min-height: 400px;
+    /* اختياري حسب المحتوى */
+    padding: 2rem 1rem;
+    margin-top: 0;
+    /* نتأكد إنه ما عندوش margin زائد */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-stack {
+    width: 200px;
+    height: 300px;
+    margin-bottom: 2rem;
+    /* مسافة بين الكروت */
+  }
+
+  .card {
+    width: 100%;
+    height: 100%;
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .floating-shapes .shape {
+    width: 50px;
+    height: 50px;
+  }
+}
