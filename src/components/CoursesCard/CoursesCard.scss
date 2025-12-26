@@ -1,0 +1,197 @@
+:root {
+    --color-primary: #7C3AED;
+    --color-primary-light: #A78BFA;
+    --color-primary-dark: #5B21B6;
+    --color-secondary: #4F46E5;
+    --color-secondary-light: #818CF8;
+    --color-secondary-dark: #4338CA;
+    --color-accent: #EC4899;
+    --color-accent-light: #F9A8D4;
+    --color-accent-dark: #BE185D;
+    --color-white: #FFFFFF;
+    --color-black: #111827;
+    --color-gray-light: #E5E7EB;
+    --color-gray: #9CA3AF;
+    --color-gray-dark: #4B5563;
+    --color-success: #22C55E;
+    --color-error: #EF4444;
+    --color-warning: #F59E0B;
+    --color-info: var(--color-secondary-light);
+    --color-bg-primary: #F5F3FF;
+    --color-bg-secondary: #FFFFFF;
+    --color-bg-accent: #FCE7F3;
+    --color-text-primary: #1E1B4B;
+    --color-text-secondary: #6B7280;
+    --color-text-inverse: #FFFFFF;
+}
+
+
+.course-card {
+    position: relative;
+    background: #000; // خلفية أوضح للنصوص
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    // Category Color Variables
+    &.category-programming {
+        --cat-color: var(--color-primary);
+    }
+
+    &.category-language {
+        --cat-color: var(--color-secondary);
+    }
+
+    &.category-videoEditing {
+        --cat-color: var(--color-accent);
+    }
+
+    &.category-contentCreation {
+        --cat-color: var(--color-success);
+    }
+
+    &.category-eCommerce {
+        --cat-color: var(--color-warning);
+    }
+
+    --cat-color: var(--color-primary); // fallback
+
+    &:hover {
+        transform: translateY(-10px) scale(1.02);
+        background:#020202;
+        border-color: var(--cat-color);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3), 0 0 20px rgba(var(--cat-color), 0.2);
+
+        .card-image img {
+            transform: scale(1.1);
+        }
+
+        .view-course-btn {
+            background: var(--cat-color);
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            border-color: transparent;
+        }
+    }
+
+    .sale-badge {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        background: var(--color-error);
+        color: var(--color-text-inverse);
+        padding: 0.3rem 1rem;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 700;
+        z-index: 2;
+        box-shadow: 0 4px 10px rgba(239, 68, 68, 0.3);
+    }
+
+    .category-badge {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        background: var(--cat-color);
+        color: var(--color-text-inverse);
+        padding: 0.3rem 1rem;
+        border-radius: 20px;
+        font-size: 0.7rem;
+        font-weight: 800;
+        z-index: 2;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .card-image {
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 40%;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+        }
+    }
+
+    .card-content {
+        padding: 1.5rem;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+
+        p {
+            font-size: 0.95rem;
+            color: #e0e0e0;
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+            flex-grow: 1;
+        }
+
+        .card-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid #1e1c1c;
+
+            span {
+                font-size: 1rem;
+                color: var(--cat-color);
+                display: flex;
+                align-items: center;
+                gap: 0.4rem;
+
+                &:last-child {
+                    color: var(--cat-color);
+                    font-weight: 700;
+                    font-size: 1.1rem;
+                    transition: all 0.3s ease;
+                }
+            }
+        }
+
+        .view-course-btn {
+            display: block;
+            text-align: center;
+            padding: 0.8rem;
+            border-radius: 12px;
+            background: var(--cat-color);
+            color: var(--color-text-inverse);
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            border: 1px solid var(--color-success);
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+        }
+    }
+}

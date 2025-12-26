@@ -1,0 +1,756 @@
+{
+    "login": {
+        "title": "El-Madrasa",
+        "subtitle": "Welcome back! Please login to your account.",
+        "email": "Email Address",
+        "password": "Password",
+        "rememberMe": "Remember me",
+        "forgotPassword": "Forgot password?",
+        "signin": "Sign In",
+        "question": "Don't have an account?",
+        "signup": "Signup"
+    },
+    "signup": {
+        "title": "Create Account",
+        "subtitle": "Please fill out this form to create an account.",
+        "fname": "First Name",
+        "lname": "Last Name",
+        "email": "Email Address",
+        "password": "Password",
+        "strong": "Strong",
+        "medium": "Medium",
+        "weak": "Weak",
+        "confirmPassword": "Confirm Password",
+        "signupButton": "Sign Up",
+        "question": "Already have an account?",
+        "signin": "Sign In",
+        "login": "Login"
+    },
+    "nav": {
+        "logo": "El Madrasa",
+        "link1": "Home",
+        "link2": "About Us",
+        "link3": "Courses",
+        "link4": "Pricing",
+        "link5": "Contact"
+    },
+    "hero": {
+        "title": "El Madrasa",
+        "description1": "Learn programming, languages, video editing, and content creation in a fun and practical way suitable for all levels.",
+        "description2": "Join our community and unlock your digital skills with interactive courses and modern, high-quality content.",
+        "button1": "Get Started",
+        "button2": "Learn More"
+    },
+    "whyMadrasa": [
+        {
+            "name": "Why El Madrasa?"
+        }
+    ],
+    "coursesPreview": [
+        {
+            "title": "Learn Programming",
+            "description": "Master coding skills with interactive courses.",
+            "image": "img2"
+        },
+        {
+            "title": "Languages",
+            "description": "Learn English, Arabic, and more.",
+            "image": "img3"
+        },
+        {
+            "title": "Video Editing",
+            "description": "Create professional videos easily.",
+            "image": "img4"
+        },
+        {
+            "title": "Content Creation",
+            "description": "Make content that inspires others.",
+            "image": "img5"
+        },
+        {
+            "title": "Community Support",
+            "description": "Join a supportive learning community.",
+            "image": "img6"
+        },
+        {
+            "title": "Career Growth",
+            "description": "Boost your career with digital skills.",
+            "image": "img7"
+        }
+    ],
+    "coursesData": [
+        {
+            "id": 1,
+            "nameKey": "fullStackWebDev",
+            "descriptionKey": "fullStackWebDevDesc",
+            "image": "/images/web-dev.jpg",
+            "categoryKey": "programming",
+            "price": "Paid",
+            "lessons": 50,
+            "duration": {
+                "hours": 40,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 2,
+            "nameKey": "pythonProgramming",
+            "descriptionKey": "pythonProgrammingDesc",
+            "image": "/images/python.jpg",
+            "categoryKey": "programming",
+            "price": "Paid",
+            "lessons": 45,
+            "duration": {
+                "hours": 35,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 3,
+            "nameKey": "reactEssentials",
+            "descriptionKey": "reactEssentialsDesc",
+            "image": "/images/react.jpg",
+            "categoryKey": "programming",
+            "price": "Paid",
+            "lessons": 40,
+            "duration": {
+                "hours": 30,
+                "minutes": 15
+            }
+        },
+        {
+            "id": 4,
+            "nameKey": "androidDev",
+            "descriptionKey": "androidDevDesc",
+            "image": "/images/android.jpg",
+            "categoryKey": "programming",
+            "price": "Paid",
+            "lessons": 55,
+            "duration": {
+                "hours": 45,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 5,
+            "nameKey": "machineLearningBasics",
+            "descriptionKey": "machineLearningBasicsDesc",
+            "image": "/images/machine-learning.jpg",
+            "categoryKey": "programming",
+            "price": "Paid",
+            "lessons": 60,
+            "duration": {
+                "hours": 50,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 6,
+            "nameKey": "germanForBeginners",
+            "descriptionKey": "germanForBeginnersDesc",
+            "image": "/images/german.jpg",
+            "categoryKey": "language",
+            "price": "Free",
+            "lessons": 25,
+            "duration": {
+                "hours": 20,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 7,
+            "nameKey": "englishConversation",
+            "descriptionKey": "englishConversationDesc",
+            "image": "/images/english.jpg",
+            "categoryKey": "language",
+            "price": "Free",
+            "lessons": 20,
+            "duration": {
+                "hours": 18,
+                "minutes": 30
+            }
+        },
+        {
+            "id": 8,
+            "nameKey": "videoEditingPremiere",
+            "descriptionKey": "videoEditingPremiereDesc",
+            "image": "/images/premiere.jpg",
+            "categoryKey": "videoEditing",
+            "price": "Paid",
+            "lessons": 30,
+            "duration": {
+                "hours": 25,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 9,
+            "nameKey": "afterEffects",
+            "descriptionKey": "afterEffectsDesc",
+            "image": "/images/after-effects.jpg",
+            "categoryKey": "videoEditing",
+            "price": "Paid",
+            "lessons": 35,
+            "duration": {
+                "hours": 28,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 10,
+            "nameKey": "finalCutPro",
+            "descriptionKey": "finalCutProDesc",
+            "image": "/images/finalcut.jpg",
+            "categoryKey": "videoEditing",
+            "price": "Free",
+            "lessons": 25,
+            "duration": {
+                "hours": 22,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 11,
+            "nameKey": "contentCreationMastery",
+            "descriptionKey": "contentCreationMasteryDesc",
+            "image": "/images/content.jpg",
+            "categoryKey": "contentCreation",
+            "price": "Paid",
+            "lessons": 28,
+            "duration": {
+                "hours": 20,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 12,
+            "nameKey": "dropshippingBusiness",
+            "descriptionKey": "dropshippingBusinessDesc",
+            "image": "/images/dropshipping.jpg",
+            "categoryKey": "eCommerce",
+            "price": "Paid",
+            "lessons": 20,
+            "duration": {
+                "hours": 18,
+                "minutes": 0
+            }
+        }
+    ],
+    "translations": {
+        "fullStackWebDev": "Full-Stack Web Development",
+        "fullStackWebDevDesc": "Master front-end and back-end web development with real projects.",
+        "pythonProgramming": "Python Programming",
+        "pythonProgrammingDesc": "Learn Python from scratch and build practical applications.",
+        "reactEssentials": "React.js Essentials",
+        "reactEssentialsDesc": "Build modern web apps using React, Redux, and Hooks.",
+        "androidDev": "Android App Development",
+        "androidDevDesc": "Create Android apps with Java and Kotlin, from design to deployment.",
+        "machineLearningBasics": "Machine Learning Basics",
+        "machineLearningBasicsDesc": "Learn the fundamentals of machine learning using Python.",
+        "germanForBeginners": "German Language for Beginners",
+        "germanForBeginnersDesc": "Learn basic German grammar, vocabulary, and conversation skills.",
+        "englishConversation": "English Conversation Skills",
+        "englishConversationDesc": "Improve your English speaking and listening skills for everyday use.",
+        "videoEditingPremiere": "Video Editing with Premiere Pro",
+        "videoEditingPremiereDesc": "Learn professional video editing techniques with Adobe Premiere Pro.",
+        "afterEffects": "After Effects Motion Graphics",
+        "afterEffectsDesc": "Create stunning motion graphics and animations using After Effects.",
+        "finalCutPro": "Final Cut Pro Video Editing",
+        "finalCutProDesc": "Edit professional videos for YouTube and social media using Final Cut Pro.",
+        "contentCreationMastery": "Content Creation Mastery",
+        "contentCreationMasteryDesc": "Learn to create engaging content for social media and blogs.",
+        "dropshippingBusiness": "Dropshipping Business",
+        "dropshippingBusinessDesc": "Start and run a profitable dropshipping business from scratch.",
+        "categories": {
+            "all": "All",
+            "programming": "Programming",
+            "language": "Language",
+            "videoEditing": "Video Editing",
+            "contentCreation": "Content Creation",
+            "eCommerce": "E-Commerce"
+        },
+        "categoriesList": [
+            {
+                "id": "all",
+                "name": "All"
+            },
+            {
+                "id": "programming",
+                "name": "Programming"
+            },
+            {
+                "id": "language",
+                "name": "Language"
+            },
+            {
+                "id": "videoEditing",
+                "name": "Video Editing"
+            },
+            {
+                "id": "contentCreation",
+                "name": "Content Creation"
+            },
+            {
+                "id": "eCommerce",
+                "name": "E-Commerce"
+            }
+        ]
+    },
+    "testimonials": [
+        {
+            "name": "Mahmoud Fathy",
+            "comment": "The Full-Stack Web Development course helped me land my first developer job!",
+            "course": "Full-Stack Web Development",
+            "currentJob": "Frontend Developer"
+        },
+        {
+            "name": "Menna kamel",
+            "comment": "Python Programming course was very practical and easy to follow. Highly recommend!",
+            "course": "Python Programming",
+            "currentJob": "Data Analyst"
+        },
+        {
+            "name": "Lina Hassan",
+            "comment": "I learned so much from React.js Essentials. Now I can build real apps confidently.",
+            "course": "React.js Essentials",
+            "currentJob": "React Developer"
+        },
+        {
+            "name": "Mohammed Al-Farsi",
+            "comment": "Android App Development course gave me the skills to publish my first app!",
+            "course": "Android App Development",
+            "currentJob": "Mobile App Developer"
+        },
+        {
+            "name": "Mayar Mostafa",
+            "comment": "Machine Learning Basics opened a new career path for me in AI projects.",
+            "course": "Machine Learning Basics",
+            "currentJob": "Junior ML Engineer"
+        },
+        {
+            "name": "John Smith",
+            "comment": "German Language for Beginners helped me communicate easily during my trip to Germany.",
+            "course": "German Language for Beginners",
+            "currentJob": "Marketing Specialist"
+        },
+        {
+            "name": "Emily Johnson",
+            "comment": "English Conversation Skills course boosted my confidence in international meetings.",
+            "course": "English Conversation Skills",
+            "currentJob": "Project Coordinator"
+        },
+        {
+            "name": "Ali Hassan",
+            "comment": "Video Editing with Premiere Pro was fun and professional. My videos now look amazing.",
+            "course": "Video Editing with Premiere Pro",
+            "currentJob": "Freelance Video Editor"
+        },
+        {
+            "name": "Maya Rodriguez",
+            "comment": "After Effects Motion Graphics course helped me land my first freelance animation project.",
+            "course": "After Effects Motion Graphics",
+            "currentJob": "Motion Graphic Designer"
+        },
+        {
+            "name": "Khalid Saeed",
+            "comment": "Final Cut Pro Video Editing course is perfect for content creators wanting professional results.",
+            "course": "Final Cut Pro Video Editing",
+            "currentJob": "YouTube Content Creator"
+        },
+        {
+            "name": "Noura Al-Mansouri",
+            "comment": "Content Creation Mastery taught me how to create engaging posts for social media effectively.",
+            "course": "Content Creation Mastery",
+            "currentJob": "Social Media Manager"
+        },
+        {
+            "name": "James Lee",
+            "comment": "Dropshipping Business course helped me start my first online store successfully.",
+            "course": "Dropshipping Business",
+            "currentJob": "E-commerce Entrepreneur"
+        }
+    ],
+    "aspirations": {
+        "title": "Our Aspirations",
+        "subtitle": "Building the future of digital education with passion and innovation",
+        "cards": [
+            {
+                "id": 1,
+                "title": "Empowering Learners",
+                "description": "We equip students with cutting-edge, real-world skills to dominate the modern tech landscape.",
+                "icon": "🎓"
+            },
+            {
+                "id": 2,
+                "title": "Educational Excellence",
+                "description": "Experience world-class content curated by industry veterans and expert educators.",
+                "icon": "💎"
+            },
+            {
+                "id": 3,
+                "title": "Future-Ready Skills",
+                "description": "Our curriculum is engineered to bridge the gap between learning and professional success.",
+                "icon": "🚀"
+            },
+            {
+                "id": 4,
+                "title": "Global Community",
+                "description": "Join a vibrant ecosystem of learners and mentors from around the globe.",
+                "icon": "🌍"
+            }
+        ]
+    },
+    "doctors": {
+        "title": "Our professors",
+        "descrption": "We have highly qualified university professors and specialists with 30 years of experience",
+        "cards": [
+            {
+                "id": 1,
+                "title": "Mahmoud Mohamed Fathy",
+                "position": "Full Stack Developer Professor",
+                "description": "Full Stack Developer Professor at MUST | Cairo University with 17 years of experience, worked in Microsoft for 3 years and Apple for 5 years.",
+                "icon": "💻"
+            },
+            {
+                "id": 2,
+                "title": "Menna Kamel Ibrahim",
+                "position": "Cybersecurity Specialist & Instructor",
+                "description": "Cybersecurity specialist and technical instructor with 17 years of experience in network security, penetration testing, and securing enterprise web applications.",
+                "icon": "🛡️"
+            },
+            {
+                "id": 3,
+                "title": "Sara Kamel Ibrahim",
+                "position": "Video Editor & Content Creator",
+                "description": "Professional video editor and content creator with 7 years of experience, specialized in Adobe Premiere Pro, After Effects, and social media video production.",
+                "icon": "🎬"
+            },
+            {
+                "id": 4,
+                "title": "Khaled Mostafa Ali",
+                "position": "Dropshipping Mentor & E-commerce Consultant",
+                "description": "Dropshipping mentor and e-commerce consultant with 8 years of experience, helped build and scale multiple Shopify stores targeting international markets.",
+                "icon": "📦"
+            },
+            {
+                "id": 5,
+                "title": "Mostafa Ali Hassan",
+                "position": "Back-End Developer & Instructor",
+                "description": "Back-End Developer and programming instructor with 10 years of experience, specialized in Node.js, Laravel, REST APIs, and database optimization.",
+                "icon": "🖥️"
+            }
+        ]
+    },
+    "footer": {
+        "link6": "Hero-Banner ",
+        "link7": "Why-Madrasa",
+        "link8": "Courses",
+        "link9": "Testimonials",
+        "link10": "Aspirations",
+        "link11": "professors",
+        "title": "EL - MADRASA",
+        "description": "El Madrasa is an educational platform designed to empower individuals with essential digital skills through interactive courses and modern content. Our mission is to provide accessible, high-quality training that prepares learners for success in today's rapidly evolving technological landscape.",
+        "sections": "Our Sections",
+        "pages": "Our Pages",
+        "copyright": "© 2025 El Madrasa. All rights reserved.",
+        "creator": "Created By Eng:-Mahmoud Fathy"
+    },
+    "AboutHero": {
+        "title": "Welcome to",
+        "text": "Madrasa",
+        "sidetext1": "Your New Ultimate Gateway To Success",
+        "sidetext2": "El Madrasa is an educational platform designed to empower individuals with essential digital skills through interactive courses and modern content",
+        "mobiletext1": "Your GateWay To Success",
+        "mobiletext2": "Unique Trip You Will Get It",
+        "mobiletext3": "Students",
+        "number1": "+2500",
+        "mobiletext4": "Professors",
+        "number2": "+200",
+        "mobiletext5": "Courses",
+        "number3": "+120",
+        "mobiletext6": "SERVICES",
+        "mobiletext7": "Full Stack Course",
+        "mobiletext8": "Video Editing Course",
+        "sidetext3": "Get Started Today",
+        "sidetext4": "El MADRASA Is The Correct Choice"
+    },
+    "AboutMissionVision": {
+        "title": "Our Mission And Vision"
+    },
+    "AboutFeatures": {
+        "title": "Our Features",
+        "desc": "Everything you need to build strong digital skills and succeed in the modern tech world",
+        "cards": [
+            {
+                "id": 1,
+                "title": "Expert Instructors",
+                "description": "Learn from highly qualified professionals with real-world industry experience.",
+                "icon": "🎓"
+            },
+            {
+                "id": 2,
+                "title": "Practical Learning",
+                "description": "Hands-on projects and real applications to strengthen your skills.",
+                "icon": "🛠️"
+            },
+            {
+                "id": 3,
+                "title": "Flexible Learning",
+                "description": "Study anytime, anywhere with lifetime access to courses.",
+                "icon": "⏰"
+            },
+            {
+                "id": 4,
+                "title": "Career-Oriented Courses",
+                "description": "Courses designed to prepare you for real job opportunities.",
+                "icon": "💼"
+            },
+            {
+                "id": 5,
+                "title": "Modern Technologies",
+                "description": "Learn the latest tools and technologies used in today’s market.",
+                "icon": "🚀"
+            },
+            {
+                "id": 6,
+                "title": "Supportive Community",
+                "description": "Join a growing community of learners and mentors.",
+                "icon": "🌍"
+            },
+            {
+                "id": 7,
+                "title": "Certified Learning",
+                "description": "Earn certificates to showcase your skills and achievements.",
+                "icon": "📜"
+            },
+            {
+                "id": 8,
+                "title": "Affordable Pricing",
+                "description": "High-quality education at prices suitable for everyone.",
+                "icon": "💰"
+            }
+        ]
+    },
+    "ImportantNumbers": {
+        "next": "Next",
+        "items": [
+            {
+                "value": "+25,000",
+                "label": "Students Enrolled",
+                "desc": "Learners from different countries"
+            },
+            {
+                "value": "+120",
+                "label": "Courses Available",
+                "desc": "Digital courses across multiple fields"
+            },
+            {
+                "value": "+40",
+                "label": "Expert Instructors",
+                "desc": "Professional trainers with real experience"
+            },
+            {
+                "value": "+15",
+                "label": "Countries Reached",
+                "desc": "Global learning community"
+            },
+            {
+                "value": "98%",
+                "label": "Student Satisfaction",
+                "desc": "High-quality learning experience"
+            },
+            {
+                "value": "+300",
+                "label": "Hours of Content",
+                "desc": "Recorded educational hours"
+            },
+            {
+                "value": "+5,000",
+                "label": "Certificates Issued",
+                "desc": "Certificates after course completion"
+            },
+            {
+                "value": "24/7",
+                "label": "Learning Access",
+                "desc": "Learn anytime, anywhere"
+            },
+            {
+                "value": "+60",
+                "label": "Practical Projects",
+                "desc": "Real-world hands-on projects"
+            },
+            {
+                "value": "+10",
+                "label": "Tech Skills Tracks",
+                "desc": "Programming, AI, Design and more"
+            },
+            {
+                "value": "85%",
+                "label": "Career Improvement",
+                "desc": "Learners improved their career paths"
+            },
+            {
+                "value": "+1,200",
+                "label": "Community Members",
+                "desc": "Active learning community"
+            }
+        ]
+    },
+    "AboutCTA": {
+        "title": "El-Madrasa",
+        "subtitle": "is an educational platform designed to empower individuals with essential digital skills through interactive courses and modern content",
+        "btn": "GO TO COURSES",
+        "dev": "This Website Made With Love By Eng Mahmoud Fathy"
+    },
+    "categoryFilter": {
+        "categories": {
+            "all": "All",
+            "programming": "Programming",
+            "language": "Language",
+            "videoEditing": "Video Editing",
+            "contentCreation": "Content Creation",
+            "eCommerce": "E-Commerce"
+        },
+        "sort": {
+            "price": "Price"
+        },
+        "sortBy": {
+            "level": "Level",
+            "rating": "Rating"
+        }
+    },
+    "courseCard": {
+        "title": "React.js Complete Course",
+        "category": "Category: Programming",
+        "duration": "30 Hours",
+        "lessons": "45 Lessons",
+        "students": "1200 Students",
+        "buy": "Buy Now",
+        "register": "Enroll Now",
+        "free": "free"
+    },
+    "translations": {
+        "fullStackWebDev": "Full Stack Web Development",
+        "fullStackWebDevDesc": "Learn web development from scratch to mastery",
+        "pythonProgramming": "Python Programming",
+        "pythonProgrammingDesc": "Learn Python programming from scratch to mastery",
+        "reactEssentials": "React Essentials",
+        "reactEssentialsDesc": "Learn React fundamentals from scratch to mastery",
+        "androidDev": "Android Development",
+        "androidDevDesc": "Learn Android development from scratch to mastery",
+        "machineLearningBasics": "Machine Learning Basics",
+        "machineLearningBasicsDesc": "Learn machine learning basics from scratch to mastery",
+        "germanForBeginners": "German for Beginners",
+        "germanForBeginnersDesc": "Learn German from scratch to mastery",
+        "englishConversation": "English Conversation",
+        "englishConversationDesc": "Learn English conversation from scratch to mastery",
+        "frenchIntermediate": "French Intermediate",
+        "frenchIntermediateDesc": "Learn French from scratch to intermediate level",
+        "spanishForTravel": "Spanish for Travel",
+        "spanishForTravelDesc": "Learn Spanish for travelers from scratch to mastery",
+        "arabicAdvanced": "Advanced Arabic",
+        "arabicAdvancedDesc": "Learn advanced Arabic from scratch to mastery",
+        "videoEditingPremiere": "Video Editing with Premiere",
+        "videoEditingPremiereDesc": "Learn video editing with Premiere from scratch to mastery",
+        "afterEffects": "After Effects",
+        "afterEffectsDesc": "Learn After Effects from scratch to mastery",
+        "finalCutPro": "Final Cut Pro",
+        "finalCutProDesc": "Learn Final Cut Pro from scratch to mastery",
+        "davinciResolve": "DaVinci Resolve",
+        "davinciResolveDesc": "Learn DaVinci Resolve from scratch to mastery",
+        "motionGraphics": "Motion Graphics",
+        "motionGraphicsDesc": "Learn motion graphics from scratch to mastery",
+        "contentCreationMastery": "Content Creation Mastery",
+        "contentCreationMasteryDesc": "Master content creation from scratch to mastery",
+        "socialMediaMarketing": "Social Media Marketing",
+        "socialMediaMarketingDesc": "Learn social media marketing from scratch to mastery",
+        "photographyBasics": "Photography Basics",
+        "photographyBasicsDesc": "Learn photography basics from scratch to mastery",
+        "youtubeGrowth": "YouTube Growth",
+        "youtubeGrowthDesc": "Learn how to grow a YouTube channel from scratch to mastery",
+        "graphicDesign": "Graphic Design",
+        "graphicDesignDesc": "Learn graphic design from scratch to mastery",
+        "dropshippingBusiness": "Dropshipping Business",
+        "dropshippingBusinessDesc": "Learn dropshipping business from scratch to mastery",
+        "shopifyStoreSetup": "Shopify Store Setup",
+        "shopifyStoreSetupDesc": "Learn how to set up a Shopify store from scratch to mastery",
+        "amazonFBA": "Amazon FBA",
+        "amazonFBADesc": "Learn Amazon FBA product selling from scratch to mastery",
+        "etsySelling": "Selling on Etsy",
+        "etsySellingDesc": "Learn selling on Etsy platform from scratch to mastery",
+        "eCommerceMarketing": "E-Commerce Marketing",
+        "eCommerceMarketingDesc": "Learn e-commerce marketing from scratch to mastery",
+        "fullStackWebDev2": "Full Stack Web Development 2",
+        "fullStackWebDev2Desc": "Learn web development from scratch to mastery - Level 2",
+        "pythonProgramming2": "Python Programming 2",
+        "pythonProgramming2Desc": "Learn Python programming from scratch to mastery - Level 2",
+        "reactEssentials2": "React Essentials 2",
+        "reactEssentials2Desc": "Learn React fundamentals from scratch to mastery - Level 2",
+        "androidDev2": "Android Development 2",
+        "androidDev2Desc": "Learn Android development from scratch to mastery - Level 2",
+        "machineLearningBasics2": "Machine Learning Basics 2",
+        "machineLearningBasics2Desc": "Learn machine learning basics from scratch to mastery - Level 2",
+        "germanForBeginners2": "German for Beginners 2",
+        "germanForBeginners2Desc": "Learn German from scratch to mastery - Level 2",
+        "englishConversation2": "English Conversation 2",
+        "englishConversation2Desc": "Learn English conversation from scratch to mastery - Level 2",
+        "frenchIntermediate2": "French Intermediate 2",
+        "frenchIntermediate2Desc": "Learn French from scratch to intermediate level - Level 2",
+        "spanishForTravel2": "Spanish for Travel 2",
+        "spanishForTravel2Desc": "Learn Spanish for travelers from scratch to mastery - Level 2",
+        "arabicAdvanced2": "Advanced Arabic 2",
+        "arabicAdvanced2Desc": "Learn advanced Arabic from scratch to mastery - Level 2",
+        "videoEditingPremiere2": "Video Editing with Premiere 2",
+        "videoEditingPremiere2Desc": "Learn video editing with Premiere from scratch to mastery - Level 2",
+        "afterEffects2": "After Effects 2",
+        "afterEffects2Desc": "Learn After Effects from scratch to mastery - Level 2",
+        "finalCutPro2": "Final Cut Pro 2",
+        "finalCutPro2Desc": "Learn Final Cut Pro from scratch to mastery - Level 2",
+        "davinciResolve2": "DaVinci Resolve 2",
+        "davinciResolve2Desc": "Learn DaVinci Resolve from scratch to mastery - Level 2",
+        "motionGraphics2": "Motion Graphics 2",
+        "motionGraphics2Desc": "Learn motion graphics from scratch to mastery - Level 2",
+        "contentCreationMastery2": "Content Creation Mastery 2",
+        "contentCreationMastery2Desc": "Master content creation from scratch to mastery - Level 2",
+        "socialMediaMarketing2": "Social Media Marketing 2",
+        "socialMediaMarketing2Desc": "Learn social media marketing from scratch to mastery - Level 2",
+        "photographyBasics2": "Photography Basics 2",
+        "photographyBasics2Desc": "Learn photography basics from scratch to mastery - Level 2",
+        "youtubeGrowth2": "YouTube Growth 2",
+        "youtubeGrowth2Desc": "Learn how to grow a YouTube channel from scratch to mastery - Level 2",
+        "graphicDesign2": "Graphic Design 2",
+        "graphicDesign2Desc": "Learn graphic design from scratch to mastery - Level 2",
+        "dropshippingBusiness2": "Dropshipping Business 2",
+        "dropshippingBusiness2Desc": "Learn dropshipping business from scratch to mastery - Level 2",
+        "shopifyStoreSetup2": "Shopify Store Setup 2",
+        "shopifyStoreSetup2Desc": "Learn how to set up a Shopify store from scratch to mastery - Level 2",
+        "amazonFBA2": "Amazon FBA 2",
+        "amazonFBA2Desc": "Learn Amazon FBA product selling from scratch to mastery - Level 2",
+        "etsySelling2": "Selling on Etsy 2",
+        "etsySelling2Desc": "Learn selling on Etsy platform from scratch to mastery - Level 2",
+        "eCommerceMarketing2": "E-Commerce Marketing 2",
+        "eCommerceMarketing2Desc": "Learn e-commerce marketing from scratch to mastery - Level 2"
+    },
+    "instructors": {
+        "MahmoudFathy": "Eng. Mahmoud Fathy",
+        "MennaKamel": "Menna Kamel",
+        "MayarMohamed": "Mayar Mohamed",
+        "HaidyMahmoud": "Haidy Mahmoud",
+        "AhmedEssam": "Ahmed Essam",
+        "MahmoudElSayed": "Mahmoud ElSayed",
+        "AhmedDahi": "Ahmed Dahi",
+        "SherifElBohy": "Sherif ElBohy",
+        "NorhanAli": "Norhan Ali",
+        "OmarSaid": "Omar Said",
+        "HalaSami": "Hala Sami",
+        "RaniaYoussef": "Rania Youssef",
+        "KarimAhmed": "Karim Ahmed",
+        "MonaHassan": "Mona Hassan",
+        "SaraKhaled": "Sara Khaled",
+        "AlaaEldin": "Alaa Eldin",
+        "DinaSherif": "Dina Sherif",
+        "TarekMohamed": "Tarek Mohamed",
+        "LailaMahmoud": "Laila Mahmoud",
+        "YasminSami": "Yasmin Sami"
+    }
+}
