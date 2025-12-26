@@ -27,7 +27,11 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/courses" element={<Courses />} />
       </Routes>
+<<<<<<< HEAD
       <Footer />
+=======
+      {/* <Footer /> */}
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
     </>
   );
 }

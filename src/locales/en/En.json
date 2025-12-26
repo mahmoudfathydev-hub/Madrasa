@@ -612,20 +612,38 @@
             "eCommerce": "E-Commerce"
         },
         "sort": {
+<<<<<<< HEAD
             "price": "Price"
         },
         "sortBy": {
+=======
+            "label": "Sort By",
+            "options": {
+                "nameAsc": "Name A-Z",
+                "nameDesc": "Name Z-A",
+                "priceLow": "Price Low to High",
+                "priceHigh": "Price High to Low"
+            }
+        },
+        "sort": {
+            "price": "Price",
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
             "level": "Level",
             "rating": "Rating"
         }
     },
     "courseCard": {
         "title": "React.js Complete Course",
+<<<<<<< HEAD
+=======
+        "instructor": "Instructor: Eng. Mahmoud Fathy",
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
         "category": "Category: Programming",
         "duration": "30 Hours",
         "lessons": "45 Lessons",
         "students": "1200 Students",
         "buy": "Buy Now",
+<<<<<<< HEAD
         "register": "Enroll Now",
         "free": "free"
     },
@@ -752,5 +770,8 @@
         "TarekMohamed": "Tarek Mohamed",
         "LailaMahmoud": "Laila Mahmoud",
         "YasminSami": "Yasmin Sami"
+=======
+        "register": "Enroll Now"
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
     }
 }

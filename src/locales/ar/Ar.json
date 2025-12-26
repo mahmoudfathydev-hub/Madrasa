@@ -12,11 +12,16 @@
     },
     "signup": {
         "title": "إنشاء حساب",
+<<<<<<< HEAD
         "subtitle": "يرجى ملء هذا النموذج لإنشاء حساب جديد.",
+=======
+        "subtitle": "يرجى تعبئة هذا النموذج لإنشاء حساب.",
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
         "fname": "الاسم الأول",
         "lname": "اسم العائلة",
         "email": "البريد الإلكتروني",
         "password": "كلمة المرور",
+<<<<<<< HEAD
         "strong": "قوية",
         "medium": "متوسطة",
         "weak": "ضعيفة",
@@ -25,6 +30,16 @@
         "question": "هل لديك حساب بالفعل؟",
         "signin": "تسجيل الدخول",
         "login": "الدخول"
+=======
+        "strong": "قوي",
+        "medium": "متوسط",
+        "weak": "ضعيف",
+        "confirmPassword": "تأكيد كلمة المرور",
+        "signupButton": "تسجيل",
+        "question": "هل لديك حساب بالفعل؟",
+        "signin": "تسجيل الدخول",
+        "login": "تسجيل الدخول"
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
     },
     "nav": {
         "logo": "المدرسة",
@@ -32,6 +47,7 @@
         "link2": "من نحن",
         "link3": "الدورات",
         "link4": "الأسعار",
+<<<<<<< HEAD
         "link5": "اتصل بنا"
     },
     "hero": {
@@ -78,6 +94,17 @@
             "image": "img7"
         }
     ],
+=======
+        "link5": "تواصل معنا"
+    },
+    "hero": {
+        "title": "المدرسة",
+        "description1": "تعلم البرمجة، اللغات، المونتاج وصناعة المحتوى بأسلوب ممتع وعملي يناسب جميع المستويات.",
+        "description2": "انضم لمجتمعنا واطلق مهاراتك الرقمية مع دورات تفاعلية ومحتوى حديث وعالي الجودة.",
+        "button1": "ابدأ الآن",
+        "button2": "تعرف أكثر"
+    },
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
     "coursesData": [
         {
             "id": 1,
@@ -85,7 +112,11 @@
             "descriptionKey": "fullStackWebDevDesc",
             "image": "/images/web-dev.jpg",
             "categoryKey": "programming",
+<<<<<<< HEAD
             "price": "مدفوع",
+=======
+            "price": 199,
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
             "lessons": 50,
             "duration": {
                 "hours": 40,
@@ -98,7 +129,11 @@
             "descriptionKey": "pythonProgrammingDesc",
             "image": "/images/python.jpg",
             "categoryKey": "programming",
+<<<<<<< HEAD
             "price": "مدفوع",
+=======
+            "price": 199,
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
             "lessons": 45,
             "duration": {
                 "hours": 35,
@@ -111,7 +146,11 @@
             "descriptionKey": "reactEssentialsDesc",
             "image": "/images/react.jpg",
             "categoryKey": "programming",
+<<<<<<< HEAD
             "price": "مدفوع",
+=======
+            "price": 199,
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
             "lessons": 40,
             "duration": {
                 "hours": 30,
@@ -124,7 +163,11 @@
             "descriptionKey": "androidDevDesc",
             "image": "/images/android.jpg",
             "categoryKey": "programming",
+<<<<<<< HEAD
             "price": "مدفوع",
+=======
+            "price": 249,
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
             "lessons": 55,
             "duration": {
                 "hours": 45,
@@ -137,7 +180,11 @@
             "descriptionKey": "machineLearningBasicsDesc",
             "image": "/images/machine-learning.jpg",
             "categoryKey": "programming",
+<<<<<<< HEAD
             "price": "مدفوع",
+=======
+            "price": 299,
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
             "lessons": 60,
             "duration": {
                 "hours": 50,
@@ -150,7 +197,11 @@
             "descriptionKey": "germanForBeginnersDesc",
             "image": "/images/german.jpg",
             "categoryKey": "language",
+<<<<<<< HEAD
             "price": "مجاني",
+=======
+            "price": 0,
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
             "lessons": 25,
             "duration": {
                 "hours": 20,
@@ -163,7 +214,11 @@
             "descriptionKey": "englishConversationDesc",
             "image": "/images/english.jpg",
             "categoryKey": "language",
+<<<<<<< HEAD
             "price": "مجاني",
+=======
+            "price": 0,
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
             "lessons": 20,
             "duration": {
                 "hours": 18,
@@ -176,7 +231,11 @@
             "descriptionKey": "videoEditingPremiereDesc",
             "image": "/images/premiere.jpg",
             "categoryKey": "videoEditing",
+<<<<<<< HEAD
             "price": "مدفوع",
+=======
+            "price": 149,
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
             "lessons": 30,
             "duration": {
                 "hours": 25,
@@ -189,7 +248,11 @@
             "descriptionKey": "afterEffectsDesc",
             "image": "/images/after-effects.jpg",
             "categoryKey": "videoEditing",
+<<<<<<< HEAD
             "price": "مدفوع",
+=======
+            "price": 179,
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
             "lessons": 35,
             "duration": {
                 "hours": 28,
@@ -202,7 +265,11 @@
             "descriptionKey": "finalCutProDesc",
             "image": "/images/finalcut.jpg",
             "categoryKey": "videoEditing",
+<<<<<<< HEAD
             "price": "مجاني",
+=======
+            "price": 0,
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
             "lessons": 25,
             "duration": {
                 "hours": 22,
@@ -215,7 +282,11 @@
             "descriptionKey": "contentCreationMasteryDesc",
             "image": "/images/content.jpg",
             "categoryKey": "contentCreation",
+<<<<<<< HEAD
             "price": "مدفوع",
+=======
+            "price": 129,
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
             "lessons": 28,
             "duration": {
                 "hours": 20,
@@ -228,7 +299,11 @@
             "descriptionKey": "dropshippingBusinessDesc",
             "image": "/images/dropshipping.jpg",
             "categoryKey": "eCommerce",
+<<<<<<< HEAD
             "price": "مدفوع",
+=======
+            "price": 99,
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
             "lessons": 20,
             "duration": {
                 "hours": 18,
@@ -236,6 +311,7 @@
             }
         }
     ],
+<<<<<<< HEAD
     "translations": {
         "categories": {
             "all": "الكل",
@@ -589,6 +665,23 @@
         },
         "sort": {
             "label": "فرز حسب",
+=======
+    "free": "مجاني",
+    "paid": "مدفوع",
+    "lessons": "درس",
+    "enrollNow": "سجّل الآن",
+    "categoryFilter": {
+        "categories": {
+            "all": "الكل",
+            "programming": "برمجة",
+            "language": "اللغات",
+            "videoEditing": "تحرير الفيديو",
+            "contentCreation": "صناعة المحتوى",
+            "eCommerce": "التجارة الإلكترونية"
+        },
+        "sort": {
+            "label": "ترتيب حسب",
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
             "options": {
                 "nameAsc": "الاسم من أ إلى ي",
                 "nameDesc": "الاسم من ي إلى أ",
@@ -598,6 +691,7 @@
         }
     },
     "courseCard": {
+<<<<<<< HEAD
         "title": "دورة كاملة في React.js",
         "instructor": "المدرب: مهندس محمود فتحي",
         "category": "الفئة: البرمجة",
@@ -730,5 +824,15 @@
         "TarekMohamed": "طارق محمد",
         "LailaMahmoud": "ليلى محمود",
         "YasminSami": "ياسمين سامي"
+=======
+        "title": "كورس رياكت الكامل",
+        "instructor": "المدرب: م / محمود فتحي",
+        "category": "التصنيف: برمجة",
+        "duration": "30 ساعة",
+        "lessons": "45 درس",
+        "students": "1200 طالب",
+        "buy": "اشترك الآن",
+        "register": "سجل في الكورس"
+>>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
     }
 }
