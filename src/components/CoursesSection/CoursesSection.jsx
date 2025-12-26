@@ -24,14 +24,13 @@ export default function CoursesSection() {
     const [filter, setFilter] = useState('all');
     const [visibleCount, setVisibleCount] = useState(6);
 
-    // جلب الكورسات والـ translations من JSON
+
     const courses = t('coursesData', { returnObjects: true }) || [];
     const translations = t('translations', { returnObjects: true }) || {};
 
-    // جلب الكاتيجوريز مباشرة من categoriesList في JSON
+
     const categories = translations.categoriesList || [];
 
-    // فلترة الكورسات حسب الكاتيجوري
     const filteredCourses = !filter || filter === 'all'
         ? courses
         : courses.filter(course =>
@@ -54,7 +53,6 @@ export default function CoursesSection() {
             <div className="container">
                 <h2>{t('hero.description1')}</h2>
 
-                {/* أزرار الفلترة */}
                 <div className="filter-buttons">
                     {Array.isArray(categories) && categories.map(cat => (
                         <button
@@ -62,7 +60,7 @@ export default function CoursesSection() {
                             className={filter === cat.id ? 'active' : ''}
                             onClick={() => {
                                 setFilter(cat.id);
-                                setVisibleCount(6); // Reset count when changing filter
+                                setVisibleCount(6); 
                             }}
                         >
                             {cat.name}
@@ -70,11 +68,10 @@ export default function CoursesSection() {
                     ))}
                 </div>
 
-                {/* شبكة الكورسات */}
+
                 <div className="courses-grid">
                     {Array.isArray(displayedCourses) &&
                         displayedCourses.map((course) => {
-                            // استخدام ID الكورس لضمان بقاء الصورة ثابتة حتى عند الفلترة
                             const imageIndex = (course.id - 1) % courseImages.length;
                             return (
                                 <CoursesCard
@@ -84,7 +81,7 @@ export default function CoursesSection() {
                                         name: translations[course.nameKey] || course.nameKey,
                                         description: translations[course.descriptionKey] || course.descriptionKey,
                                         image: courseImages[imageIndex],
-                                        isSale: course.id <= 5 // أول 5 كورسات حقيقية عليها خصم
+                                        isSale: course.id <= 5 
                                     }}
                                 />
                             );

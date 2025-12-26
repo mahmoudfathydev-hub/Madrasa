@@ -1,0 +1,121 @@
+.courses-section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+
+    .courses-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .courses-list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); // 4 كروت جنب بعض
+        gap: 1.5rem;
+
+        @media (max-width: 1024px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @media (max-width: 768px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media (max-width: 480px) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .course-item {
+        background-color: #fff;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        display: flex;
+        flex-direction: column;
+        transition: transform 0.3s, box-shadow 0.3s;
+
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .course-image {
+            img {
+                width: 100%;
+                height: 180px;
+                object-fit: cover;
+            }
+        }
+
+        .course-info {
+            padding: 1rem;
+
+            h2 {
+                font-size: 1.2rem;
+                margin-bottom: 0.5rem;
+                color: #333;
+            }
+
+            h3 {
+                font-size: 1rem;
+                margin-bottom: 0.25rem;
+                color: #666;
+            }
+
+            h5 {
+                font-size: 0.9rem;
+                color: #999;
+            }
+        }
+
+        .course-stats {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 1rem 1rem 1rem;
+            font-size: 0.85rem;
+            color: #555;
+
+            span {
+                display: flex;
+                align-items: center;
+                gap: 0.25rem;
+            }
+        }
+
+        .course-actions {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 1rem 1rem 1rem;
+
+            .price-btn {
+                background-color: #7C3AED;
+                color: #fff;
+                border: none;
+                border-radius: 6px;
+                padding: 0.5rem 1rem;
+                font-weight: bold;
+                cursor: pointer;
+                transition: background 0.3s;
+
+                &:hover {
+                    background-color: #5B21B6;
+                }
+            }
+
+            .register-btn {
+                background-color: #E5E7EB;
+                color: #333;
+                border: none;
+                border-radius: 6px;
+                padding: 0.5rem 1rem;
+                font-weight: bold;
+                cursor: pointer;
+                transition: background 0.3s;
+
+                &:hover {
+                    background-color: #D1D5DB;
+                }
+            }
+        }
+    }
+}

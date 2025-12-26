@@ -4,6 +4,7 @@ import Signup from './pages/SignUp/Signup';
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import Home from './pages/Home/Home';
+import Courses from './pages/Courses/Courses';
 import AboutUs from './pages/AboutUs/AboutUs';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
@@ -24,8 +25,9 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/courses" element={<Courses />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

@@ -120,6 +120,46 @@ MADRASA APP FULL STRUCTURE
 
 =======================================================================
 
+====== ABOUT US PAGE {
+    ====== NAVBAR SECTION
+    ====== ABOUT HERO SECTION {
+        Hero Banner with Title and Description
+        Call-to-Action Button
+        Background Image/Video
+    }
+    ====== MISSION & VISION SECTION {
+        Mission Statement
+        Vision Statement
+        Values Cards
+        Animated Icons
+    }
+    ====== FEATURES SECTION {
+        Feature Cards with Icons
+        Key Benefits
+        Hover Animations
+    }
+    ====== NUMBERS/STATS SECTION {
+        Statistics Display (Students, Courses, Teachers)
+        Animated Counters
+        Progress Indicators
+    }
+    ====== TEAM SECTION {
+        Team Member Cards
+        Photos and Bios
+        Social Media Links
+        Hover Effects
+    }
+    ====== CALL TO ACTION SECTION {
+        CTA Banner
+        Contact Information
+        Social Media Links
+        Newsletter Signup
+    }
+    ====== FOOTER SECTION
+}
+
+=======================================================================
+
 ====== PROFILE PAGE & SETTINGS {
     ====== NAVBAR SECTION
     ====== YOUR INFORMATION SECTION {
@@ -187,6 +227,12 @@ MADRASA APP FULL STRUCTURE
     CategoryCard.jsx
     PricingCard.jsx
     Accordion.jsx
+    AboutHero.jsx
+    AboutMissionVision.jsx
+    AboutFeatures.jsx
+    AboutNumbers.jsx
+    AboutTeam.jsx
+    AboutCTA.jsx
 }
 
 =======================================================================

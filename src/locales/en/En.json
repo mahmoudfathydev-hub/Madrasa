@@ -596,10 +596,44 @@
             }
         ]
     },
-    "AboutCTA" : {
-        "title" : "El-Madrasa",
-        "subtitle" : "is an educational platform designed to empower individuals with essential digital skills through interactive courses and modern content",
-        "btn" : "GO TO COURSES",
-        "dev" : "This Website Made With Love By Eng Mahmoud Fathy"
+    "AboutCTA": {
+        "title": "El-Madrasa",
+        "subtitle": "is an educational platform designed to empower individuals with essential digital skills through interactive courses and modern content",
+        "btn": "GO TO COURSES",
+        "dev": "This Website Made With Love By Eng Mahmoud Fathy"
+    },
+    "categoryFilter": {
+        "categories": {
+            "all": "All",
+            "programming": "Programming",
+            "language": "Language",
+            "videoEditing": "Video Editing",
+            "contentCreation": "Content Creation",
+            "eCommerce": "E-Commerce"
+        },
+        "sort": {
+            "label": "Sort By",
+            "options": {
+                "nameAsc": "Name A-Z",
+                "nameDesc": "Name Z-A",
+                "priceLow": "Price Low to High",
+                "priceHigh": "Price High to Low"
+            }
+        },
+        "sort": {
+            "price": "Price",
+            "level": "Level",
+            "rating": "Rating"
+        }
+    },
+    "courseCard": {
+        "title": "React.js Complete Course",
+        "instructor": "Instructor: Eng. Mahmoud Fathy",
+        "category": "Category: Programming",
+        "duration": "30 Hours",
+        "lessons": "45 Lessons",
+        "students": "1200 Students",
+        "buy": "Buy Now",
+        "register": "Enroll Now"
     }
 }
