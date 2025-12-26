@@ -23,7 +23,7 @@ export default function CoursesCard({ course }) {
                     <span>
                         {duration.hours}h {duration.minutes}m
                     </span>
-                    <span>{price}</span>
+                    <span>${price}</span>
                 </div>
                 <Link to={`/courses/${course.id}`} className="view-course-btn">
                     {t('hero.button2')}

@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import CoursesCard from '../CoursesCard/CoursesCard';
 import './CoursesSection.scss';
 import { useTranslation } from 'react-i18next';
-
-// Import images 8-19
 import img8 from '../../images/8.png';
 import img9 from '../../images/9.png';
 import img10 from '../../images/10.png';

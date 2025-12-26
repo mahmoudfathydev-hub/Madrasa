@@ -8,6 +8,7 @@ import Courses from './pages/Courses/Courses';
 import AboutUs from './pages/AboutUs/AboutUs';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import Pricing from './pages/Pricing/Pricing';
 
 function App() {
   const { i18n } = useTranslation();
@@ -26,12 +27,9 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/courses" element={<Courses />} />
+        <Route path="/pricing" element={<Pricing />} />
       </Routes>
-<<<<<<< HEAD
       <Footer />
-=======
-      {/* <Footer /> */}
->>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
     </>
   );
 }

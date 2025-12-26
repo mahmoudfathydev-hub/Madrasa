@@ -236,66 +236,32 @@
             }
         }
     ],
-    "translations": {
-        "fullStackWebDev": "Full-Stack Web Development",
-        "fullStackWebDevDesc": "Master front-end and back-end web development with real projects.",
-        "pythonProgramming": "Python Programming",
-        "pythonProgrammingDesc": "Learn Python from scratch and build practical applications.",
-        "reactEssentials": "React.js Essentials",
-        "reactEssentialsDesc": "Build modern web apps using React, Redux, and Hooks.",
-        "androidDev": "Android App Development",
-        "androidDevDesc": "Create Android apps with Java and Kotlin, from design to deployment.",
-        "machineLearningBasics": "Machine Learning Basics",
-        "machineLearningBasicsDesc": "Learn the fundamentals of machine learning using Python.",
-        "germanForBeginners": "German Language for Beginners",
-        "germanForBeginnersDesc": "Learn basic German grammar, vocabulary, and conversation skills.",
-        "englishConversation": "English Conversation Skills",
-        "englishConversationDesc": "Improve your English speaking and listening skills for everyday use.",
-        "videoEditingPremiere": "Video Editing with Premiere Pro",
-        "videoEditingPremiereDesc": "Learn professional video editing techniques with Adobe Premiere Pro.",
-        "afterEffects": "After Effects Motion Graphics",
-        "afterEffectsDesc": "Create stunning motion graphics and animations using After Effects.",
-        "finalCutPro": "Final Cut Pro Video Editing",
-        "finalCutProDesc": "Edit professional videos for YouTube and social media using Final Cut Pro.",
-        "contentCreationMastery": "Content Creation Mastery",
-        "contentCreationMasteryDesc": "Learn to create engaging content for social media and blogs.",
-        "dropshippingBusiness": "Dropshipping Business",
-        "dropshippingBusinessDesc": "Start and run a profitable dropshipping business from scratch.",
-        "categories": {
-            "all": "All",
-            "programming": "Programming",
-            "language": "Language",
-            "videoEditing": "Video Editing",
-            "contentCreation": "Content Creation",
-            "eCommerce": "E-Commerce"
+    "categoriesList": [
+        {
+            "id": "all",
+            "name": "All"
         },
-        "categoriesList": [
-            {
-                "id": "all",
-                "name": "All"
-            },
-            {
-                "id": "programming",
-                "name": "Programming"
-            },
-            {
-                "id": "language",
-                "name": "Language"
-            },
-            {
-                "id": "videoEditing",
-                "name": "Video Editing"
-            },
-            {
-                "id": "contentCreation",
-                "name": "Content Creation"
-            },
-            {
-                "id": "eCommerce",
-                "name": "E-Commerce"
-            }
-        ]
-    },
+        {
+            "id": "programming",
+            "name": "Programming"
+        },
+        {
+            "id": "language",
+            "name": "Language"
+        },
+        {
+            "id": "videoEditing",
+            "name": "Video Editing"
+        },
+        {
+            "id": "contentCreation",
+            "name": "Content Creation"
+        },
+        {
+            "id": "eCommerce",
+            "name": "E-Commerce"
+        }
+    ],
     "testimonials": [
         {
             "name": "Mahmoud Fathy",
@@ -612,38 +578,24 @@
             "eCommerce": "E-Commerce"
         },
         "sort": {
-<<<<<<< HEAD
-            "price": "Price"
+            "price": "Price",
+            "level": "level",
+            "rating": "Rating"
         },
         "sortBy": {
-=======
             "label": "Sort By",
-            "options": {
-                "nameAsc": "Name A-Z",
-                "nameDesc": "Name Z-A",
-                "priceLow": "Price Low to High",
-                "priceHigh": "Price High to Low"
-            }
-        },
-        "sort": {
-            "price": "Price",
->>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
             "level": "Level",
             "rating": "Rating"
         }
     },
     "courseCard": {
         "title": "React.js Complete Course",
-<<<<<<< HEAD
-=======
-        "instructor": "Instructor: Eng. Mahmoud Fathy",
->>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
-        "category": "Category: Programming",
+        "instructor": "Instructor: ",
+        "category": "Category: ",
         "duration": "30 Hours",
         "lessons": "45 Lessons",
         "students": "1200 Students",
         "buy": "Buy Now",
-<<<<<<< HEAD
         "register": "Enroll Now",
         "free": "free"
     },
@@ -770,8 +722,45 @@
         "TarekMohamed": "Tarek Mohamed",
         "LailaMahmoud": "Laila Mahmoud",
         "YasminSami": "Yasmin Sami"
-=======
-        "register": "Enroll Now"
->>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
+    },
+    "pricingPlans": {
+        "Basic": "Basic",
+        "Standard": "Standard",
+        "Premium": "Premium",
+        "perMonth": "per month",
+        "features": {
+            "basic": [
+                "Access to all basic courses",
+                "Limited email support",
+                "Certificate upon course completion"
+            ],
+            "standard": [
+                "Access to all basic and advanced courses",
+                "Email and chat support",
+                "Certified course completion certificates",
+                "Downloadable course materials",
+                "Access to weekly live webinars",
+                "Participation in community forums",
+                "Progress tracking and personalized learning paths"
+            ],
+            "premium": [
+                "Unlimited access to all courses",
+                "24/7 priority support",
+                "Certified and printable certificates",
+                "One-on-one mentorship sessions",
+                "Exclusive discounts on future courses",
+                "Access to premium workshops and masterclasses",
+                "Early access to new courses",
+                "Personalized career guidance and recommendations"
+            ]
+        }
+    },
+    "chatbot": {
+        "title": "Pharaon AI",
+        "description": "Pharaoh AI, your personal assistant",
+        "welcome": "Hello 👋 I am Pharaoh AI. that helps you find answers to your questions. Ask me anything!",
+        "tempReply": "🤖 AI is thinking... Real responses will be available soon.",
+        "placeholder": "Type your message here...",
+        "send": "Send"
     }
 }

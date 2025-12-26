@@ -23,23 +23,21 @@
 }
 
 .category-filter {
-<<<<<<< HEAD
+
     position: fixed;
-    top: 0; 
+    top: 0;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000;
     padding-top: 7rem;
-    background-color: var(--color-gray); 
+    background-color: var(--color-gray);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     width: 1350px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 
-=======
     padding-top: 7rem;
     background-color: var(--color-gray);
->>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
 
     .container {
         display: flex;
@@ -195,12 +193,11 @@ input[type="radio"] {
     display: none;
 }
 
-<<<<<<< HEAD
+
 input[type="radio"]:checked+label {
     background-color: #444a5a;
 }
-=======
-input[type="radio"]:checked + label {
+
+input[type="radio"]:checked+label {
     background-color: #444a5a;
 }
->>>>>>> e666e59fa9e87e264dc54df9f9508dcfd5b604fd
