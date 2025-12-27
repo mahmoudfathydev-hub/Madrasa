@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './footer.scss'
+import './Footer.scss'
 import { useTranslation } from 'react-i18next';
 import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 import { Link } from 'react-router-dom';
