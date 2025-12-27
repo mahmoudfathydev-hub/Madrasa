@@ -1,0 +1,34 @@
+{
+    "coursesPreview": [
+        {
+            "title": "Learn Programming",
+            "description": "Master coding skills with interactive courses.",
+            "image": "img2"
+        },
+        {
+            "title": "Languages",
+            "description": "Learn English, Arabic, and more.",
+            "image": "img3"
+        },
+        {
+            "title": "Video Editing",
+            "description": "Create professional videos easily.",
+            "image": "img4"
+        },
+        {
+            "title": "Content Creation",
+            "description": "Make content that inspires others.",
+            "image": "img5"
+        },
+        {
+            "title": "Community Support",
+            "description": "Join a supportive learning community.",
+            "image": "img6"
+        },
+        {
+            "title": "Career Growth",
+            "description": "Boost your career with digital skills.",
+            "image": "img7"
+        }
+    ]
+}

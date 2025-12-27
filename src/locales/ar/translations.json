@@ -1,0 +1,38 @@
+{
+    "translations": {
+        "categories": {
+            "all": "الكل",
+            "programming": "البرمجة",
+            "language": "اللغة",
+            "videoEditing": "تحرير الفيديو",
+            "contentCreation": "إنشاء المحتوى",
+            "eCommerce": "التجارة الإلكترونية"
+        },
+        "categoriesList": [
+            {
+                "id": "all",
+                "name": "الكل"
+            },
+            {
+                "id": "programming",
+                "name": "البرمجة"
+            },
+            {
+                "id": "language",
+                "name": "اللغة"
+            },
+            {
+                "id": "videoEditing",
+                "name": "تحرير الفيديو"
+            },
+            {
+                "id": "contentCreation",
+                "name": "إنشاء المحتوى"
+            },
+            {
+                "id": "eCommerce",
+                "name": "التجارة الإلكترونية"
+            }
+        ]
+    }
+}

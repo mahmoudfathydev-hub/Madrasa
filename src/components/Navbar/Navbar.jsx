@@ -1,17 +1,17 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { IoPersonCircleSharp } from "react-icons/io5";
 import './Navbar.scss';
+import { LanguageContext } from '../../LanguageContext';
 
 export default function Navbar() {
-    const { t, i18n } = useTranslation();
-    const [currentLang, setCurrentLang] = useState(i18n.language);
+    const { t } = useTranslation();
+    const { language, setLanguage } = useContext(LanguageContext);
+
     const toggleLanguage = () => {
-        const newLang = currentLang === 'en' ? 'ar' : 'en';
-        i18n.changeLanguage(newLang);
-        setCurrentLang(newLang);
-        document.documentElement.dir = newLang === 'en' ? 'ltr' : 'rtl';
+        const newLang = language === 'en' ? 'ar' : 'en';
+        setLanguage(newLang);
     };
     const [menuOpen, setMenuOpen] = useState(false);
 
@@ -43,7 +43,7 @@ export default function Navbar() {
 
                 <div className="right-section">
                     <button onClick={toggleLanguage}>
-                        {currentLang === 'en' ? 'عربي' : 'English'}
+                        {language === 'en' ? 'عربي' : 'English'}
                     </button>
                     <span><IoPersonCircleSharp /></span>
 

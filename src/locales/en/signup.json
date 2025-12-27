@@ -1,0 +1,18 @@
+{
+    "signup": {
+        "title": "Create Account",
+        "subtitle": "Please fill out this form to create an account.",
+        "fname": "First Name",
+        "lname": "Last Name",
+        "email": "Email Address",
+        "password": "Password",
+        "strong": "Strong",
+        "medium": "Medium",
+        "weak": "Weak",
+        "confirmPassword": "Confirm Password",
+        "signupButton": "Sign Up",
+        "question": "Already have an account?",
+        "signin": "Sign In",
+        "login": "Login"
+    }
+}

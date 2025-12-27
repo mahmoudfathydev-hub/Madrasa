@@ -1,0 +1,13 @@
+{
+    "login": {
+        "title": "El-Madrasa",
+        "subtitle": "Welcome back! Please login to your account.",
+        "email": "Email Address",
+        "password": "Password",
+        "rememberMe": "Remember me",
+        "forgotPassword": "Forgot password?",
+        "signin": "Sign In",
+        "question": "Don't have an account?",
+        "signup": "Signup"
+    }
+}

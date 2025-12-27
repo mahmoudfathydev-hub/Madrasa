@@ -1,0 +1,12 @@
+{
+    "contactPage": {
+        "title": "Contact Us",
+        "description": "We'd love to hear from you! Whether you have a question about our courses, pricing, or anything else, our team is ready to answer all your questions.",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "submit": "Submit"
+        }
+    }
+}

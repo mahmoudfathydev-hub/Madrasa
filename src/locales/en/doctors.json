@@ -1,0 +1,43 @@
+{
+    "doctors": {
+        "title": "Our professors",
+        "descrption": "We have highly qualified university professors and specialists with 30 years of experience",
+        "cards": [
+            {
+                "id": 1,
+                "title": "Mahmoud Mohamed Fathy",
+                "position": "Full Stack Developer Professor",
+                "description": "Full Stack Developer Professor at MUST | Cairo University with 17 years of experience, worked in Microsoft for 3 years and Apple for 5 years.",
+                "icon": "💻"
+            },
+            {
+                "id": 2,
+                "title": "Menna Kamel Ibrahim",
+                "position": "Cybersecurity Specialist & Instructor",
+                "description": "Cybersecurity specialist and technical instructor with 17 years of experience in network security, penetration testing, and securing enterprise web applications.",
+                "icon": "🛡️"
+            },
+            {
+                "id": 3,
+                "title": "Sara Kamel Ibrahim",
+                "position": "Video Editor & Content Creator",
+                "description": "Professional video editor and content creator with 7 years of experience, specialized in Adobe Premiere Pro, After Effects, and social media video production.",
+                "icon": "🎬"
+            },
+            {
+                "id": 4,
+                "title": "Khaled Mostafa Ali",
+                "position": "Dropshipping Mentor & E-commerce Consultant",
+                "description": "Dropshipping mentor and e-commerce consultant with 8 years of experience, helped build and scale multiple Shopify stores targeting international markets.",
+                "icon": "📦"
+            },
+            {
+                "id": 5,
+                "title": "Mostafa Ali Hassan",
+                "position": "Back-End Developer & Instructor",
+                "description": "Back-End Developer and programming instructor with 10 years of experience, specialized in Node.js, Laravel, REST APIs, and database optimization.",
+                "icon": "🖥️"
+            }
+        ]
+    }
+}

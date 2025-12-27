@@ -1,0 +1,32 @@
+{
+    "aspirations": {
+        "title": "Our Aspirations",
+        "subtitle": "Building the future of digital education with passion and innovation",
+        "cards": [
+            {
+                "id": 1,
+                "title": "Empowering Learners",
+                "description": "We equip students with cutting-edge, real-world skills to dominate the modern tech landscape.",
+                "icon": "🎓"
+            },
+            {
+                "id": 2,
+                "title": "Educational Excellence",
+                "description": "Experience world-class content curated by industry veterans and expert educators.",
+                "icon": "💎"
+            },
+            {
+                "id": 3,
+                "title": "Future-Ready Skills",
+                "description": "Our curriculum is engineered to bridge the gap between learning and professional success.",
+                "icon": "🚀"
+            },
+            {
+                "id": 4,
+                "title": "Global Community",
+                "description": "Join a vibrant ecosystem of learners and mentors from around the globe.",
+                "icon": "🌍"
+            }
+        ]
+    }
+}

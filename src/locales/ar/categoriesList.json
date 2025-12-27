@@ -1,0 +1,28 @@
+{
+    "categoriesList": [
+        {
+            "id": "all",
+            "name": "الكل"
+        },
+        {
+            "id": "programming",
+            "name": "برمجة"
+        },
+        {
+            "id": "language",
+            "name": "لغات"
+        },
+        {
+            "id": "videoEditing",
+            "name": "مونتاج الفيديو"
+        },
+        {
+            "id": "contentCreation",
+            "name": "صناعة المحتوى"
+        },
+        {
+            "id": "eCommerce",
+            "name": "التجارة الإلكترونية"
+        }
+    ]
+}

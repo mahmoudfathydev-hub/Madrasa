@@ -1,0 +1,160 @@
+{
+    "coursesData": [
+        {
+            "id": 1,
+            "nameKey": "fullStackWebDev",
+            "descriptionKey": "fullStackWebDevDesc",
+            "image": "/images/web-dev.jpg",
+            "categoryKey": "programming",
+            "price": "Paid",
+            "lessons": 50,
+            "duration": {
+                "hours": 40,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 2,
+            "nameKey": "pythonProgramming",
+            "descriptionKey": "pythonProgrammingDesc",
+            "image": "/images/python.jpg",
+            "categoryKey": "programming",
+            "price": "Paid",
+            "lessons": 45,
+            "duration": {
+                "hours": 35,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 3,
+            "nameKey": "reactEssentials",
+            "descriptionKey": "reactEssentialsDesc",
+            "image": "/images/react.jpg",
+            "categoryKey": "programming",
+            "price": "Paid",
+            "lessons": 40,
+            "duration": {
+                "hours": 30,
+                "minutes": 15
+            }
+        },
+        {
+            "id": 4,
+            "nameKey": "androidDev",
+            "descriptionKey": "androidDevDesc",
+            "image": "/images/android.jpg",
+            "categoryKey": "programming",
+            "price": "Paid",
+            "lessons": 55,
+            "duration": {
+                "hours": 45,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 5,
+            "nameKey": "machineLearningBasics",
+            "descriptionKey": "machineLearningBasicsDesc",
+            "image": "/images/machine-learning.jpg",
+            "categoryKey": "programming",
+            "price": "Paid",
+            "lessons": 60,
+            "duration": {
+                "hours": 50,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 6,
+            "nameKey": "germanForBeginners",
+            "descriptionKey": "germanForBeginnersDesc",
+            "image": "/images/german.jpg",
+            "categoryKey": "language",
+            "price": "Free",
+            "lessons": 25,
+            "duration": {
+                "hours": 20,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 7,
+            "nameKey": "englishConversation",
+            "descriptionKey": "englishConversationDesc",
+            "image": "/images/english.jpg",
+            "categoryKey": "language",
+            "price": "Free",
+            "lessons": 20,
+            "duration": {
+                "hours": 18,
+                "minutes": 30
+            }
+        },
+        {
+            "id": 8,
+            "nameKey": "videoEditingPremiere",
+            "descriptionKey": "videoEditingPremiereDesc",
+            "image": "/images/premiere.jpg",
+            "categoryKey": "videoEditing",
+            "price": "Paid",
+            "lessons": 30,
+            "duration": {
+                "hours": 25,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 9,
+            "nameKey": "afterEffects",
+            "descriptionKey": "afterEffectsDesc",
+            "image": "/images/after-effects.jpg",
+            "categoryKey": "videoEditing",
+            "price": "Paid",
+            "lessons": 35,
+            "duration": {
+                "hours": 28,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 10,
+            "nameKey": "finalCutPro",
+            "descriptionKey": "finalCutProDesc",
+            "image": "/images/finalcut.jpg",
+            "categoryKey": "videoEditing",
+            "price": "Free",
+            "lessons": 25,
+            "duration": {
+                "hours": 22,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 11,
+            "nameKey": "contentCreationMastery",
+            "descriptionKey": "contentCreationMasteryDesc",
+            "image": "/images/content.jpg",
+            "categoryKey": "contentCreation",
+            "price": "Paid",
+            "lessons": 28,
+            "duration": {
+                "hours": 20,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 12,
+            "nameKey": "dropshippingBusiness",
+            "descriptionKey": "dropshippingBusinessDesc",
+            "image": "/images/dropshipping.jpg",
+            "categoryKey": "eCommerce",
+            "price": "Paid",
+            "lessons": 20,
+            "duration": {
+                "hours": 18,
+                "minutes": 0
+            }
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "categoriesList": [
+        {
+            "id": "all",
+            "name": "All"
+        },
+        {
+            "id": "programming",
+            "name": "Programming"
+        },
+        {
+            "id": "language",
+            "name": "Language"
+        },
+        {
+            "id": "videoEditing",
+            "name": "Video Editing"
+        },
+        {
+            "id": "contentCreation",
+            "name": "Content Creation"
+        },
+        {
+            "id": "eCommerce",
+            "name": "E-Commerce"
+        }
+    ]
+}

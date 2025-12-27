@@ -1,0 +1,76 @@
+{
+    "testimonials": [
+        {
+            "name": "Mahmoud Fathy",
+            "comment": "The Full-Stack Web Development course helped me land my first developer job!",
+            "course": "Full-Stack Web Development",
+            "currentJob": "Frontend Developer"
+        },
+        {
+            "name": "Menna kamel",
+            "comment": "Python Programming course was very practical and easy to follow. Highly recommend!",
+            "course": "Python Programming",
+            "currentJob": "Data Analyst"
+        },
+        {
+            "name": "Lina Hassan",
+            "comment": "I learned so much from React.js Essentials. Now I can build real apps confidently.",
+            "course": "React.js Essentials",
+            "currentJob": "React Developer"
+        },
+        {
+            "name": "Mohammed Al-Farsi",
+            "comment": "Android App Development course gave me the skills to publish my first app!",
+            "course": "Android App Development",
+            "currentJob": "Mobile App Developer"
+        },
+        {
+            "name": "Mayar Mostafa",
+            "comment": "Machine Learning Basics opened a new career path for me in AI projects.",
+            "course": "Machine Learning Basics",
+            "currentJob": "Junior ML Engineer"
+        },
+        {
+            "name": "John Smith",
+            "comment": "German Language for Beginners helped me communicate easily during my trip to Germany.",
+            "course": "German Language for Beginners",
+            "currentJob": "Marketing Specialist"
+        },
+        {
+            "name": "Emily Johnson",
+            "comment": "English Conversation Skills course boosted my confidence in international meetings.",
+            "course": "English Conversation Skills",
+            "currentJob": "Project Coordinator"
+        },
+        {
+            "name": "Ali Hassan",
+            "comment": "Video Editing with Premiere Pro was fun and professional. My videos now look amazing.",
+            "course": "Video Editing with Premiere Pro",
+            "currentJob": "Freelance Video Editor"
+        },
+        {
+            "name": "Maya Rodriguez",
+            "comment": "After Effects Motion Graphics course helped me land my first freelance animation project.",
+            "course": "After Effects Motion Graphics",
+            "currentJob": "Motion Graphic Designer"
+        },
+        {
+            "name": "Khalid Saeed",
+            "comment": "Final Cut Pro Video Editing course is perfect for content creators wanting professional results.",
+            "course": "Final Cut Pro Video Editing",
+            "currentJob": "YouTube Content Creator"
+        },
+        {
+            "name": "Noura Al-Mansouri",
+            "comment": "Content Creation Mastery taught me how to create engaging posts for social media effectively.",
+            "course": "Content Creation Mastery",
+            "currentJob": "Social Media Manager"
+        },
+        {
+            "name": "James Lee",
+            "comment": "Dropshipping Business course helped me start my first online store successfully.",
+            "course": "Dropshipping Business",
+            "currentJob": "E-commerce Entrepreneur"
+        }
+    ]
+}

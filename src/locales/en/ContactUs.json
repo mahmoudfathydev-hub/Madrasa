@@ -1,0 +1,10 @@
+{
+    "ContactUs": {
+        "title": "Contact Us",
+        "subtitle": "Reach out today to explore our courses, get support, and start your digital skills journey with El Madrasa!",
+        "name": "Name",
+        "email": "Email Address",
+        "message": "Message",
+        "button": "Send Message"
+    }
+}

@@ -1,0 +1,160 @@
+{
+    "coursesData": [
+        {
+            "id": 1,
+            "nameKey": "تطوير الويب الكامل",
+            "descriptionKey": "دورة تطوير الويب الكاملة تساعدك على بناء تطبيقات ويب حديثة من الصفر.",
+            "image": "/images/web-dev.jpg",
+            "categoryKey": "برمجة",
+            "price": "مدفوع",
+            "lessons": 50,
+            "duration": {
+                "hours": 40,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 2,
+            "nameKey": "برمجة بايثون",
+            "descriptionKey": "دورة برمجة بايثون عملية وسهلة المتابعة. موصى بها بشدة!",
+            "image": "/images/python.jpg",
+            "categoryKey": "برمجة",
+            "price": "مدفوع",
+            "lessons": 45,
+            "duration": {
+                "hours": 35,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 3,
+            "nameKey": "أساسيات React.js",
+            "descriptionKey": "تعلمت الكثير من أساسيات React.js. الآن يمكنني بناء تطبيقات حقيقية بثقة.",
+            "image": "/images/react.jpg",
+            "categoryKey": "برمجة",
+            "price": "مدفوع",
+            "lessons": 40,
+            "duration": {
+                "hours": 30,
+                "minutes": 15
+            }
+        },
+        {
+            "id": 4,
+            "nameKey": "تطوير تطبيقات أندرويد",
+            "descriptionKey": "دورة تطوير تطبيقات أندرويد منحتني المهارات لنشر تطبيقي الأول!",
+            "image": "/images/android.jpg",
+            "categoryKey": "برمجة",
+            "price": "مدفوع",
+            "lessons": 55,
+            "duration": {
+                "hours": 45,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 5,
+            "nameKey": "أساسيات تعلم الآلة",
+            "descriptionKey": "أساسيات تعلم الآلة فتحت لي مسارًا مهنيًا جديدًا في مشاريع الذكاء الاصطناعي.",
+            "image": "/images/machine-learning.jpg",
+            "categoryKey": "برمجة",
+            "price": "مدفوع",
+            "lessons": 60,
+            "duration": {
+                "hours": 50,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 6,
+            "nameKey": "اللغة الألمانية للمبتدئين",
+            "descriptionKey": "اللغة الألمانية للمبتدئين ساعدتني على التواصل بسهولة خلال رحلتي إلى ألمانيا.",
+            "image": "/images/german.jpg",
+            "categoryKey": "لغة",
+            "price": "مجاني",
+            "lessons": 25,
+            "duration": {
+                "hours": 20,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 7,
+            "nameKey": "مهارات المحادثة باللغة الإنجليزية",
+            "descriptionKey": "دورة مهارات المحادثة باللغة الإنجليزية عززت ثقتي في الاجتماعات الدولية.",
+            "image": "/images/english.jpg",
+            "categoryKey": "لغة",
+            "price": "مجاني",
+            "lessons": 20,
+            "duration": {
+                "hours": 18,
+                "minutes": 30
+            }
+        },
+        {
+            "id": 8,
+            "nameKey": "مونتاج الفيديو ببرنامج Premiere Pro",
+            "descriptionKey": "مونتاج الفيديو ببرنامج Premiere Pro كان ممتعًا واحترافيًا. فيديوهاتي الآن تبدو رائعة.",
+            "image": "/images/premiere.jpg",
+            "categoryKey": "مونتاج الفيديو",
+            "price": "مدفوع",
+            "lessons": 30,
+            "duration": {
+                "hours": 25,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 9,
+            "nameKey": "الرسوم المتحركة ببرنامج After Effects",
+            "descriptionKey": "دورة الرسوم المتحركة ببرنامج After Effects ساعدتني في الحصول على أول مشروع رسوم متحركة مستقل.",
+            "image": "/images/after-effects.jpg",
+            "categoryKey": "مونتاج الفيديو",
+            "price": "مدفوع",
+            "lessons": 35,
+            "duration": {
+                "hours": 28,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 10,
+            "nameKey": "مونتاج الفيديو ببرنامج Final Cut Pro",
+            "descriptionKey": "دورة مونتاج الفيديو ببرنامج Final Cut Pro مثالية لمنشئي المحتوى الذين يرغبون في نتائج احترافية.",
+            "image": "/images/finalcut.jpg",
+            "categoryKey": "مونتاج الفيديو",
+            "price": "مجاني",
+            "lessons": 25,
+            "duration": {
+                "hours": 22,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 11,
+            "nameKey": "إتقان صناعة المحتوى",
+            "descriptionKey": "إتقان صناعة المحتوى علمني كيفية إنشاء منشورات جذابة لوسائل التواصل الاجتماعي بفعالية.",
+            "image": "/images/content.jpg",
+            "categoryKey": "صناعة المحتوى",
+            "price": "مدفوع",
+            "lessons": 28,
+            "duration": {
+                "hours": 20,
+                "minutes": 0
+            }
+        },
+        {
+            "id": 12,
+            "nameKey": "تجارة الدروبشيبينغ",
+            "descriptionKey": "دورة تجارة الدروبشيبينغ ساعدتني في بدء أول متجر لي عبر الإنترنت بنجاح.",
+            "image": "/images/dropshipping.jpg",
+            "categoryKey": "التجارة الإلكترونية",
+            "price": "مدفوع",
+            "lessons": 20,
+            "duration": {
+                "hours": 18,
+                "minutes": 0
+            }
+        }
+    ]
+}

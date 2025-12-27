@@ -1,0 +1,9 @@
+{
+    "courseDetails": {
+        "enroll": "Enroll Now",
+        "instructor": "Instructor",
+        "duration": "Duration",
+        "level": "Level",
+        "lessons": "Lessons"
+    }
+}

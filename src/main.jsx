@@ -7,14 +7,16 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import { store } from './rdk/store.js';
 import { Provider } from 'react-redux'
+import { LanguageProvider } from './LanguageContext.js';
+
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <StrictMode>
       <Provider store={store}>
-        <App />
+        <LanguageProvider>
+          <App />
+        </LanguageProvider>
       </Provider>
     </StrictMode>
   </BrowserRouter>
 )
-
-

@@ -1,0 +1,56 @@
+{
+    "AboutFeatures": {
+        "title": "Our Features",
+        "desc": "Everything you need to build strong digital skills and succeed in the modern tech world",
+        "cards": [
+            {
+                "id": 1,
+                "title": "Expert Instructors",
+                "description": "Learn from highly qualified professionals with real-world industry experience.",
+                "icon": "🎓"
+            },
+            {
+                "id": 2,
+                "title": "Practical Learning",
+                "description": "Hands-on projects and real applications to strengthen your skills.",
+                "icon": "🛠️"
+            },
+            {
+                "id": 3,
+                "title": "Flexible Learning",
+                "description": "Study anytime, anywhere with lifetime access to courses.",
+                "icon": "⏰"
+            },
+            {
+                "id": 4,
+                "title": "Career-Oriented Courses",
+                "description": "Courses designed to prepare you for real job opportunities.",
+                "icon": "💼"
+            },
+            {
+                "id": 5,
+                "title": "Modern Technologies",
+                "description": "Learn the latest tools and technologies used in today’s market.",
+                "icon": "🚀"
+            },
+            {
+                "id": 6,
+                "title": "Supportive Community",
+                "description": "Join a growing community of learners and mentors.",
+                "icon": "🌍"
+            },
+            {
+                "id": 7,
+                "title": "Certified Learning",
+                "description": "Earn certificates to showcase your skills and achievements.",
+                "icon": "📜"
+            },
+            {
+                "id": 8,
+                "title": "Affordable Pricing",
+                "description": "High-quality education at prices suitable for everyone.",
+                "icon": "💰"
+            }
+        ]
+    }
+}
